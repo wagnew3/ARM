@@ -1,10 +1,10 @@
 # **ARM**: Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity
 
-<p align="center"><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/recon_comparison_video.gif" width="1000" /></p>
+<p align="center"><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/recon_comparison_video.gif" width="1000" /></p>
 
 Learning-based 3D object reconstruction enables single- or few-shot estimation of 3D object models. For robotics, this holds the potential to allow model-based methods to rapidly adapt to novel objects and scenes. Existing 3D reconstruction techniques optimize for visual reconstruction fidelity, typically measured by chamfer distance or voxel IOU. We find that when applied to realistic, cluttered robotics environments, these systems produce reconstructions with low physical realism, resulting in poor task performance when used for model-based control. We propose ARM, an amodal 3D reconstruction system that introduces (1) a stability prior over object shapes, (2) a connectivity prior, and (3) a multi-channel input representation that allows for reasoning over relationships between groups of objects. By using these priors over the physical properties of objects, our system improves reconstruction quality not just by standard visual metrics, but also performance of model-based control on a variety of robotics manipulation tasks in challenging, cluttered environments.
 
-<p align="center"><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/System.png" width="900" /></p>
+<p align="center"><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/System.png" width="900" /></p>
 
 The ARM framework creates a physics engine-based simulation from an RGBD image in four steps, summarized in the above figure:
 1) We first apply an instance segmentation network to the input RGB-D image. 
@@ -12,12 +12,12 @@ The ARM framework creates a physics engine-based simulation from an RGBD image i
 3) ARM uses this representation to perform 3D shape estimation with a deep network, followed by post-processing.
 4) We use representations obtain for manipulation planning. 
 
-<p align="center"><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/loss_figure.png" width="800" /></p>
+<p align="center"><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/loss_figure.png" width="800" /></p>
 
 Optimizing for visual loss metrics like Chamfer distance along often results in reconstructions with poor physical fidelity during the planning phase, frequently due to instability of poor reconstruction of occluded regions.  We tackle this issue by designing auxiliary differentiable loss functions based on two physical priors: 1) objects are stable prior to manipulation, and 2) objects are a single connected component. The above figure gives an overview of these loss functions.
 
 <p align="center">
-  <img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/occlusion_vs_cd.png" width="400" /><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/robot_manipulation_success_rates_vs_occlusion.png" width="400" /><br>
+  <img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/occlusion_vs_cd.png" width="400" /><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/robot_manipulation_success_rates_vs_occlusion.png" width="400" /><br>
 Left: reconstruction quality vs. occlusion, right: robot task success rate vs. occlusion
 </p>
 <br>
@@ -41,18 +41,19 @@ One important application of 3D reconstructions is creating simulations of scene
 4) Robot plans in reconstructed simulation using MPPI and executes in ground truth simulation
 5) Task performance in ground truth simulation is recorded
 
-Using your 3D reconstruction algorithm with our benchmark is simple. Just implement the `predict_voxels` method of [`genre/trajopt/sandbox/examples/custom_recon_net.py`](https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/trajopt/sandbox/examples/custom_recon_net.py) to predict meshes given the per-object four channel voxel input and rgbd image and segmentation masks.
+Using your 3D reconstruction algorithm with our benchmark is simple. Just implement the `predict_voxels` method of [`genre/trajopt/sandbox/examples/custom_recon_net.py`](https://github.com/wagnew3/ARM/blob/master/trajopt/sandbox/examples/custom_recon_net.py) to predict meshes given the per-object four channel voxel input and rgbd image and segmentation masks.
 
 ## Cluttered 3D Reconstruction Benchmark
-<p align="center"><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/rgb_00008.jpeg" width="250" /><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/rgb_00014.jpeg" width="250" /><img src="https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/webpage_assets/rgb_00015.jpeg" width="250" /></p>
+<p align="center"><img src="https://github.com/wagnew3/
+  -for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/master/webpage_assets/rgb_00008.jpeg" width="250" /><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/rgb_00014.jpeg" width="250" /><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/rgb_00015.jpeg" width="250" /></p>
 
 We provide a high quality synthetic cluttered dataset of over 2.5 million cluttered tabletop reconstruction instances generated from shapenet, and a test set generated from held out shapenet instances. Instances may be accessed either from the raw data, using our dataloader, or using a preprocessed hdf5 file (reccomended).
 
 #### Loading from raw data
-We generate our reconstruction instances by taking multiple views of scenes. For each scene, the pose, scale, and model of each object is stored, and for each view the camera information is stored, along with an rgb image, a depth image, and segmentation masks. For more details and examples on loading this format, look at our dataloader [`genre/datasets/shapenet_4_channel.py`](https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/genre/datasets/shapenet_4_channel.py).
+We generate our reconstruction instances by taking multiple views of scenes. For each scene, the pose, scale, and model of each object is stored, and for each view the camera information is stored, along with an rgb image, a depth image, and segmentation masks. For more details and examples on loading this format, look at our dataloader [`genre/datasets/shapenet_4_channel.py`](https://github.com/wagnew3/ARM/blob/master/genre/datasets/shapenet_4_channel.py).
 
 #### Loading with our dataloader
-We provide a pytorch dataloader [`genre/datasets/shapenet_4_channel.py`]() that loads and preprocesses reconstruction instances in the method `__getitem__`. Lines 201-220 of [`genre/train.py`](https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/blob/CORL_2020_Code_Release/genre/train.py) show example usage. Modifying this dataloader is the easiest way to modify our four channel representation.
+We provide a pytorch dataloader [`genre/datasets/shapenet_4_channel.py`]() that loads and preprocesses reconstruction instances in the method `__getitem__`. Lines 201-220 of [`genre/train.py`](https://github.com/wagnew3/ARM/blob/master/genre/train.py) show example usage. Modifying this dataloader is the easiest way to modify our four channel representation.
 
 #### HDF5 File
 Coming soon!
@@ -62,8 +63,8 @@ Coming soon!
 2. Install mujoco (https://www.roboti.us/download/mujoco200_linux.zip) by extracting into ~/.mujoco/mujoco200_linux (for more guidance see https://github.com/openai/mujoco-py)
 
 #### start ARM env setup
-git clone https://github.com/wagnew3/Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity.git<br>
-cd Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity<br>
+git clone https://github.com/wagnew3/ARM.git<br>
+cd ARM<br>
 conda env create --name ARM --file=environment.yml<br>
 conda activate ARM<br>
 
@@ -101,4 +102,5 @@ python train.py --gpu=0,1 --manual_seed=0 --expr_id=0 --resume=13 --suffix=2 --e
 
 #### Evaulate ARM Network on Robot Manipukation Experiments
 OMP_NUM_THREADS=1 MUJOCO_GL=osmesa python herb_pushing_mppi.py --top_dir=&lt;cluttered reconstruction dataset folder=&lt;path to github code&gt;/
-Amodal-3D-Reconstruction-for-Robotic-Manipulationvia-Stability-and-Connectivity/ --num_cpu=20 --gpu_num=0 --save_dir=&lt;path to results save directory&gt; --vis_while_running=0 --run_num=1 --use_gt=0 --ground_truth=0 --steps=200 --paths_per_cpu=25  --recon_net=&lt;path to saved network weights&gt; --make_video=1 --remove_old_runs=1
+ARM
+/ --num_cpu=20 --gpu_num=0 --save_dir=&lt;path to results save directory&gt; --vis_while_running=0 --run_num=1 --use_gt=0 --ground_truth=0 --steps=200 --paths_per_cpu=25  --recon_net=&lt;path to saved network weights&gt; --make_video=1 --remove_old_runs=1
