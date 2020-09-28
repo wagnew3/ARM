@@ -1,0 +1,10 @@
+!/bin/bash
+#GT
+PATH=/home/wagnew3/github/ssc${PATH:+:${PATH}}$ CUDA_VISIBLE_DEVICES=1 OMP_NUM_THREADS=1 MUJOCO_GL=osmesa PYTHONPATH=/home/wagnew3/github/ssc python herb_pushing_mppi.py --top_dir=/home/wagnew3/github/ssc/ --num_cpu=80 --gpu_num=0 --save_dir=/raid/wagnew3/ssc_results/ground_truth_mppi/ --vis_while_running=0 --run_num=0 --total_runs=1 --ground_truth=1 --steps=120
+#Baseline
+
+#Baseline+Extrusion
+
+#Four Channel
+
+Four Channel+Stability

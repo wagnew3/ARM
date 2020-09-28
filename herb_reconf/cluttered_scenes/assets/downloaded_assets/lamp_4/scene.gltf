@@ -1,0 +1,609 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1460,
+      "max": [
+        196.23080444335938,
+        196.21916198730469,
+        245.00003051757812
+      ],
+      "min": [
+        -196.23080444335938,
+        -196.21919250488281,
+        -2.9628270567627624e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17520,
+      "componentType": 5126,
+      "count": 1460,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1460,
+      "max": [
+        2,
+        1.9390283823013306
+      ],
+      "min": [
+        0,
+        0.060971617698669434
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6912,
+      "max": [
+        1459
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 35040,
+      "componentType": 5126,
+      "count": 1928,
+      "max": [
+        75,
+        75,
+        -29.03668212890625
+      ],
+      "min": [
+        -75,
+        -75.000007629394531,
+        -436.04876708984375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 58176,
+      "componentType": 5126,
+      "count": 1928,
+      "max": [
+        0.99515038728713989,
+        0.99515062570571899,
+        0.99462276697158813
+      ],
+      "min": [
+        -0.99515038728713989,
+        -0.99515062570571899,
+        -0.99462497234344482
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11680,
+      "componentType": 5126,
+      "count": 1928,
+      "max": [
+        1.7222220897674561,
+        0.99000000953674316
+      ],
+      "min": [
+        -0.27777791023254395,
+        0.010000020265579224
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 27648,
+      "componentType": 5125,
+      "count": 6864,
+      "max": [
+        1927
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 81312,
+      "componentType": 5126,
+      "count": 3610,
+      "max": [
+        139.43118286132812,
+        139.43113708496094,
+        94.911468505859375
+      ],
+      "min": [
+        -139.43101501464844,
+        -139.43113708496094,
+        -406.04876708984375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 124632,
+      "componentType": 5126,
+      "count": 3610,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 27104,
+      "componentType": 5126,
+      "count": 3610,
+      "max": [
+        139.43119812011719,
+        139.43118286132812
+      ],
+      "min": [
+        -139.4310302734375,
+        -139.43109130859375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 55104,
+      "componentType": 5125,
+      "count": 9864,
+      "max": [
+        3609
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 167952,
+      "componentType": 5126,
+      "count": 2520,
+      "max": [
+        194.64456176757812,
+        194.64456176757812,
+        244.98489379882812
+      ],
+      "min": [
+        -194.64456176757812,
+        -194.64462280273438,
+        0.18136709928512573
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 198192,
+      "componentType": 5126,
+      "count": 2520,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 55984,
+      "componentType": 5126,
+      "count": 2520,
+      "max": [
+        0.98076921701431274,
+        1
+      ],
+      "min": [
+        -0.019230782985687256,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 94560,
+      "componentType": 5125,
+      "count": 9984,
+      "max": [
+        2519
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 228432,
+      "componentType": 5126,
+      "count": 3156,
+      "max": [
+        20.658447265625,
+        21.016847610473633,
+        163.77944946289062
+      ],
+      "min": [
+        -20.5931396484375,
+        -20.234699249267578,
+        92.925613403320312
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 266304,
+      "componentType": 5126,
+      "count": 3156,
+      "max": [
+        0.99999988079071045,
+        0.99999988079071045,
+        0.99999988079071045
+      ],
+      "min": [
+        -0.9999956488609314,
+        -0.99999570846557617,
+        -0.99999994039535522
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 76144,
+      "componentType": 5126,
+      "count": 3156,
+      "max": [
+        620.978759765625,
+        20.822483062744141
+      ],
+      "min": [
+        579.7271728515625,
+        -20.42906379699707
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 134496,
+      "componentType": 5125,
+      "count": 18336,
+      "max": [
+        3155
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "fedomo.ru (https://sketchfab.com/fedomo)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/a3588lt-1pb-arte-lamp-a0412d1be87442239af3301c262a5273",
+      "title": "Настольная лампа A3588LT-1PB Arte lamp"
+    },
+    "generator": "Sketchfab-8.39.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 207840,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 101392,
+      "byteOffset": 207840,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 304176,
+      "byteOffset": 309232,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 613408,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Fabric_beige",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Marble",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Gold",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Fabric_beige_2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Glass_03",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "A3588LT-1PB_Fabric_beige_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "A3588LT-1PB_Marble_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "A3588LT-1PB_Gold_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "A3588LT-1PB_Fabric_beige_2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "A3588LT-1PB_Glass_03_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "A3588LT-1PB.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "matrix": [
+        0.99999999999999589,
+        2.384976127700603e-08,
+        -8.7422776573475514e-08,
+        0,
+        -8.7422774488462846e-08,
+        -8.7422776573475858e-08,
+        -0.99999999999999234,
+        0,
+        -2.3849768919747699e-08,
+        0.99999999999999589,
+        -8.7422774575074413e-08,
+        0,
+        -4224.80029296875,
+        1036.343505859375,
+        529.095458984375,
+        1
+      ],
+      "name": "A3588LT-1PB"
+    },
+    {
+      "mesh": 0,
+      "name": "A3588LT-1PB_Fabric_beige_0"
+    },
+    {
+      "mesh": 1,
+      "name": "A3588LT-1PB_Marble_0"
+    },
+    {
+      "mesh": 2,
+      "name": "A3588LT-1PB_Gold_0"
+    },
+    {
+      "mesh": 3,
+      "name": "A3588LT-1PB_Fabric_beige_2_0"
+    },
+    {
+      "mesh": 4,
+      "name": "A3588LT-1PB_Glass_03_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

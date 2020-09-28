@@ -1,0 +1,490 @@
+<mujoco model="scene">
+<compiler coordinate="local" angle="radian" fusestatic="false" meshdir="/home/willie/workspace/herbpushing/herb_reconf" texturedir="/home/willie/workspace/herbpushing/herb_reconf"/>
+  <size njmax="1000" nconmax="1000"/>
+  <visual>
+    <global offwidth="800" offheight="800"/>
+    <quality shadowsize="2048"/>
+    <headlight ambient="0 0 0" diffuse="1.3999999999999999 1.3999999999999999 1.3999999999999999" specular="2 2 2"/>
+    <map force="0.1" zfar="30.0"/>
+    <rgba haze="0.14999999999999999 0.25 0.34999999999999998 1"/>
+  </visual>
+  <statistic extent="10.0" center="0.20000000000000001 0 0.5"/>
+  <default>
+    <default class="/"/>
+    <default class="herb/">
+      <joint damping="1.0"/>
+      <default class="herb/viz">
+        <geom contype="0" conaffinity="0" group="1"/>
+      </default>
+    </default>
+    <default class="herb/wam/">
+      <joint type="hinge" pos="0 0 0" axis="0 0 1" limited="true" frictionloss="0.001"/>
+      <default class="herb/wam/viz">
+        <geom type="mesh" contype="0" conaffinity="0" group="1"/>
+      </default>
+      <default class="herb/wam/col">
+        <geom type="mesh" contype="0" conaffinity="1" group="0"/>
+      </default>
+    </default>
+    <default class="herb/wam/bhand/">
+      <joint type="hinge" pos="0 0 0" axis="0 0 1" limited="true" frictionloss="0.001"/>
+      <default class="herb/wam/bhand/col">
+        <geom type="mesh" contype="0" conaffinity="1" group="0"/>
+      </default>
+      <default class="herb/wam/bhand/viz">
+        <geom type="mesh" contype="0" conaffinity="0" group="1" rgba="0.69999999999999996 0.80000000000000004 0.80000000000000004 1"/>
+      </default>
+    </default>
+    <default class="herb/wam_1/">
+      <joint type="hinge" pos="0 0 0" axis="0 0 1" limited="true" frictionloss="0.001"/>
+      <default class="herb/wam_1/viz">
+        <geom type="mesh" contype="0" conaffinity="0" group="1"/>
+      </default>
+      <default class="herb/wam_1/col">
+        <geom type="mesh" contype="0" conaffinity="1" group="0"/>
+      </default>
+    </default>
+    <default class="herb/wam_1/bhand/">
+      <joint type="hinge" pos="0 0 0" axis="0 0 1" limited="true" frictionloss="0.001"/>
+      <default class="herb/wam_1/bhand/col">
+        <geom type="mesh" contype="0" conaffinity="1" group="0"/>
+      </default>
+      <default class="herb/wam_1/bhand/viz">
+        <geom type="mesh" contype="0" conaffinity="0" group="1" rgba="0.69999999999999996 0.80000000000000004 0.80000000000000004 1"/>
+      </default>
+    </default>
+  </default>
+  <asset>
+    <texture name="concrete_2d" type="2d" file="concrete-7baa937dd9eb091794feb091c728eb4f234150ae.png"/>
+    <texture name="concretecube" type="cube" file="concrete-7baa937dd9eb091794feb091c728eb4f234150ae.png"/>
+    <material name="concrete_2d" class="/" texture="concrete_2d" reflectance="0.3" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <material name="concretecube" class="/" texture="concretecube" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <texture name="marble2d" type="2d" file="marble-e5eaaff46b3aaec59944d7330fab7172f95cd8f2.png"/>
+    <texture name="marblecube" type="cube" file="marble-e5eaaff46b3aaec59944d7330fab7172f95cd8f2.png"/>
+    <material name="marble_2d" class="/" texture="marble2d" reflectance="0.3" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <material name="marblecube" class="/" texture="marblecube" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <texture name="concreteplain_2d" type="2d" file="concreteplain-371aafd0ba788c3d3517b7c74a383d92e5897f53.png"/>
+    <texture name="concreteplaincube" type="cube" file="concreteplain-371aafd0ba788c3d3517b7c74a383d92e5897f53.png"/>
+    <material name="concreteplain_2d" class="/" texture="concreteplain_2d" reflectance="0.3" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <material name="concreteplaincube" class="/" texture="concreteplaincube" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <texture name="wood2d" type="2d" file="wood-dca777828fadc82ffe5b5005a448db092b2054fb.png"/>
+    <texture name="woodcube" type="cube" file="wood-dca777828fadc82ffe5b5005a448db092b2054fb.png"/>
+    <material name="wood2d" class="/" texture="wood2d" reflectance="0.0" rgba="1 1 1 1"/>
+    <material name="woodcube" class="/" texture="woodcube" emission="1.0"/>
+    <texture name="concrete2_2d" type="2d" file="concrete2-241aa4b6b647b116a7363537e0b2c602ff16d0ac.png"/>
+    <texture name="concrete2_cube" type="cube" file="concrete2-241aa4b6b647b116a7363537e0b2c602ff16d0ac.png"/>
+    <material name="concrete2_2d" class="/" texture="concrete2_2d" reflectance="0.0" rgba="1 1 1 1"/>
+    <material name="concrete2_cube" class="/" texture="concrete2_cube" rgba="0.80000000000000004 0.80000000000000004 0.80000000000000004 1"/>
+    <texture name="wall_2d" type="2d" builtin="flat" rgb1="0.81999999999999995 0.81999999999999995 0.78000000000000003" mark="random" markrgb="0.79000000000000004 0.79000000000000004 0.73999999999999999" random="0.3" width="1024" height="1024"/>
+    <material name="wall" class="/" texture="wall_2d"/>
+    <mesh name="herb/herb_frame" class="herb/" file="herb_frame-d14ef2a9b97c77acae48435d827d17e822b5ea0d.STL"/>
+    <mesh name="herb/herb_frame_collision" class="herb/" file="herb_frame_collision-f9b6358d74932455b7ffbfd9ca74dac0fccda711.STL"/>
+    <mesh name="herb/herb_neobotix_base" class="herb/" file="herb_neobotix_base-a561bd542e4323d6590a35700af93bfe91294ed7.STL"/>
+    <mesh name="herb/herb_neobotix_base_collision" class="herb/" file="herb_neobotix_base_collision-c0b781e9f306e864c10c17c836695c4558f03ae7.STL"/>
+    <mesh name="herb/herb_neck_pan" class="herb/" file="herb_neck_pan-3a5b595404c4fd221df9b6e9fa45f42ae8d6c2d1.STL"/>
+    <mesh name="herb/herb_neck_pan_collision" class="herb/" file="herb_neck_pan_collision-422bb9327b7695a812f7e778849056ef7beb989a.STL"/>
+    <mesh name="herb/herb_neck_tilt" class="herb/" file="herb_neck_tilt-90115c2f4d254a0b190e723f5619cc119886c40b.STL"/>
+    <mesh name="herb/herb_neck_tilt_collision" class="herb/" file="herb_neck_tilt_collision-484db3edd8836293ddbd41a57393c8610e785d3a.STL"/>
+    <mesh name="herb/herb_crl_head" class="herb/" file="herb_crl_head-8d1a14390ba99fea74706e0a42bb4c69de03fda1.STL"/>
+    <mesh name="herb/herb_crl_head_collision" class="herb/" file="herb_crl_head_collision-7e48d4cab14a84937a24657df25f3c1493b9d4f0.STL"/>
+    <mesh name="herb/herb_kinect" class="herb/" file="herb_kinect-f35f6b9c60f6d5c915f951d7862137deeec3b982.STL"/>
+    <mesh name="herb/herb_kinect_collision" class="herb/" file="herb_kinect_collision-fc0c5ad2fd441c0e68282241313155effd1beedd.STL"/>
+    <mesh name="herb/wam/base_link_fine" class="herb/wam/" file="base_link_fine-41a147148eb8dd232dfab0184aee072e64b55281.stl"/>
+    <mesh name="herb/wam/base_link_convex" class="herb/wam/" file="base_link_convex-241a02f0fe0e1f2c3855b352df6e69b26ab5b1b2.stl"/>
+    <mesh name="herb/wam/shoulder_link_fine" class="herb/wam/" file="shoulder_link_fine-70a80ea5cf6a9c11a96b4c55087f2c8f2c020d97.stl"/>
+    <mesh name="herb/wam/shoulder_link_convex_decomposition_p1" class="herb/wam/" file="shoulder_link_convex_decomposition_p1-b99c0e22423c21ede02982f896bc789bdae3b5ff.stl"/>
+    <mesh name="herb/wam/shoulder_link_convex_decomposition_p2" class="herb/wam/" file="shoulder_link_convex_decomposition_p2-2b3a517d82b2e4f2469d55f41baed0468e780436.stl"/>
+    <mesh name="herb/wam/shoulder_link_convex_decomposition_p3" class="herb/wam/" file="shoulder_link_convex_decomposition_p3-e4f646ee6b98165b5a010a5f12ebfd92128fb41b.stl"/>
+    <mesh name="herb/wam/shoulder_pitch_link_fine" class="herb/wam/" file="shoulder_pitch_link_fine-36aee65354a741fe81ccf9d2614e6e43d67f3c55.stl"/>
+    <mesh name="herb/wam/shoulder_pitch_link_convex" class="herb/wam/" file="shoulder_pitch_link_convex-f05b3e597235abed137d821b96ff7d1e2a82ea31.stl"/>
+    <mesh name="herb/wam/upper_arm_link_fine" class="herb/wam/" file="upper_arm_link_fine-ca01ee6d48649ad9f6baea7259d5cf9d08b3d635.stl"/>
+    <mesh name="herb/wam/upper_arm_link_convex_decomposition_p1" class="herb/wam/" file="upper_arm_link_convex_decomposition_p1-7ea03e3ea97d649eedea55dc3de0ea10bbb87283.stl"/>
+    <mesh name="herb/wam/upper_arm_link_convex_decomposition_p2" class="herb/wam/" file="upper_arm_link_convex_decomposition_p2-25fc59a045c74cc0c5e901bc31501e8ca212159a.stl"/>
+    <mesh name="herb/wam/elbow_link_fine" class="herb/wam/" file="elbow_link_fine-105c4e016f6a319ed74f5d55377fee15774c5d58.stl"/>
+    <mesh name="herb/wam/elbow_link_convex" class="herb/wam/" file="elbow_link_convex-618d49f47d28f374d03b62f3a4f1a11c87b40044.stl"/>
+    <mesh name="herb/wam/forearm_link_fine" class="herb/wam/" file="forearm_link_fine-e78631019336cb810525911769f36184d30c291c.stl"/>
+    <mesh name="herb/wam/forearm_link_convex_decomposition_p1" class="herb/wam/" file="forearm_link_convex_decomposition_p1-57f1e443a9d84a9b1e59b719541351dbc72b0c65.stl"/>
+    <mesh name="herb/wam/forearm_link_convex_decomposition_p2" class="herb/wam/" file="forearm_link_convex_decomposition_p2-6249b0eb91291b6e61d4566ef7bddcd133aeb11d.stl"/>
+    <mesh name="herb/wam/wrist_yaw_link_fine" class="herb/wam/" file="wrist_yaw_link_fine-3ec69f37eedc74a0b8a6edd994a49a13dec2a554.stl"/>
+    <mesh name="herb/wam/wrist_yaw_link_convex_decomposition_p1" class="herb/wam/" file="wrist_yaw_link_convex_decomposition_p1-483314d477ecff523b1f17f1b29cc860dda3b25f.stl"/>
+    <mesh name="herb/wam/wrist_yaw_link_convex_decomposition_p2" class="herb/wam/" file="wrist_yaw_link_convex_decomposition_p2-963f6bf6f5f239543cf4bbf0630fd7e3253cbd4a.stl"/>
+    <mesh name="herb/wam/wrist_pitch_link_fine" class="herb/wam/" file="wrist_pitch_link_fine-06a8aff3e76c7b3ff34cdaf40c9ed5950e2ad1fe.stl"/>
+    <mesh name="herb/wam/wrist_pitch_link_convex_decomposition_p1" class="herb/wam/" file="wrist_pitch_link_convex_decomposition_p1-3328df36bd7e249a571d0cfb2e43ac0cf17b9b77.stl"/>
+    <mesh name="herb/wam/wrist_pitch_link_convex_decomposition_p2" class="herb/wam/" file="wrist_pitch_link_convex_decomposition_p2-91c5869923c13020ad406e859d49bf3f795c96be.stl"/>
+    <mesh name="herb/wam/wrist_pitch_link_convex_decomposition_p3" class="herb/wam/" file="wrist_pitch_link_convex_decomposition_p3-744bd1df4bb176ceef61c79ab12a5b9de038d171.stl"/>
+    <mesh name="herb/wam/wrist_palm_link_fine" class="herb/wam/" file="wrist_palm_link_fine-db9db06e50f8f189c8d475b09f86be267e38a874.stl"/>
+    <mesh name="herb/wam/wrist_palm_link_convex" class="herb/wam/" file="wrist_palm_link_convex-d455a798d573176ecdc3c9794069b0e3f4f7f623.stl"/>
+    <mesh name="herb/wam/bhand/bhand_palm_fine" class="herb/wam/bhand/" file="bhand_palm_fine-dff1351ac0d212f9757a6bc04b85287b4f13403a.stl"/>
+    <mesh name="herb/wam/bhand/bhand_palm_link_convex_decomposition_p1" class="herb/wam/bhand/" file="bhand_palm_link_convex_decomposition_p1-f8ba6cc8e8efbe24c938e092f61618174769428c.stl"/>
+    <mesh name="herb/wam/bhand/bhand_palm_link_convex_decomposition_p2" class="herb/wam/bhand/" file="bhand_palm_link_convex_decomposition_p2-0a66a02812a929ee040991e6d1a7b1d11bba7bb1.stl"/>
+    <mesh name="herb/wam/bhand/bhand_palm_link_convex_decomposition_p3" class="herb/wam/bhand/" file="bhand_palm_link_convex_decomposition_p3-9d93e72f01b43aa200deff06df4a395d3eb5312a.stl"/>
+    <mesh name="herb/wam/bhand/bhand_palm_link_convex_decomposition_p4" class="herb/wam/bhand/" file="bhand_palm_link_convex_decomposition_p4-e38e089a001a0010eec12bebd2368162120ee6a2.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_prox_link_fine" class="herb/wam/bhand/" file="bhand_finger_prox_link_fine-b325b78dd2ffcab9984efe22434207b1d2e07e28.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p1" class="herb/wam/bhand/" file="bhand_finger_prox_link_convex_decomposition_p1-12071ca7dea820f8ba395c17ad58efbdd2b805a8.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p2" class="herb/wam/bhand/" file="bhand_finger_prox_link_convex_decomposition_p2-c728b40c271300b132049560287e0844b86833ed.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p3" class="herb/wam/bhand/" file="bhand_finger_prox_link_convex_decomposition_p3-561559fcb477ac41797bbd8b0da5e960b41f0363.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_med_link_fine" class="herb/wam/bhand/" file="bhand_finger_med_link_fine-31e862bb0515137229a05ffa049a96de151eb229.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_med_link_convex" class="herb/wam/bhand/" file="bhand_finger_med_link_convex-af5d2e0e2990df27924df077b297d046b710ded5.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_dist_link_fine" class="herb/wam/bhand/" file="bhand_finger_dist_link_fine-defe6db5320e79d25ade307bc4a42d6ef272b8d4.stl"/>
+    <mesh name="herb/wam/bhand/bhand_finger_dist_link_convex" class="herb/wam/bhand/" file="bhand_finger_dist_link_convex-dd89f87a37ef6bb33ec5f1998f123eb1e907ddef.stl"/>
+    <mesh name="herb/wam_1/base_link_fine" class="herb/wam_1/" file="base_link_fine-41a147148eb8dd232dfab0184aee072e64b55281.stl"/>
+    <mesh name="herb/wam_1/base_link_convex" class="herb/wam_1/" file="base_link_convex-241a02f0fe0e1f2c3855b352df6e69b26ab5b1b2.stl"/>
+    <mesh name="herb/wam_1/shoulder_link_fine" class="herb/wam_1/" file="shoulder_link_fine-70a80ea5cf6a9c11a96b4c55087f2c8f2c020d97.stl"/>
+    <mesh name="herb/wam_1/shoulder_link_convex_decomposition_p1" class="herb/wam_1/" file="shoulder_link_convex_decomposition_p1-b99c0e22423c21ede02982f896bc789bdae3b5ff.stl"/>
+    <mesh name="herb/wam_1/shoulder_link_convex_decomposition_p2" class="herb/wam_1/" file="shoulder_link_convex_decomposition_p2-2b3a517d82b2e4f2469d55f41baed0468e780436.stl"/>
+    <mesh name="herb/wam_1/shoulder_link_convex_decomposition_p3" class="herb/wam_1/" file="shoulder_link_convex_decomposition_p3-e4f646ee6b98165b5a010a5f12ebfd92128fb41b.stl"/>
+    <mesh name="herb/wam_1/shoulder_pitch_link_fine" class="herb/wam_1/" file="shoulder_pitch_link_fine-36aee65354a741fe81ccf9d2614e6e43d67f3c55.stl"/>
+    <mesh name="herb/wam_1/shoulder_pitch_link_convex" class="herb/wam_1/" file="shoulder_pitch_link_convex-f05b3e597235abed137d821b96ff7d1e2a82ea31.stl"/>
+    <mesh name="herb/wam_1/upper_arm_link_fine" class="herb/wam_1/" file="upper_arm_link_fine-ca01ee6d48649ad9f6baea7259d5cf9d08b3d635.stl"/>
+    <mesh name="herb/wam_1/upper_arm_link_convex_decomposition_p1" class="herb/wam_1/" file="upper_arm_link_convex_decomposition_p1-7ea03e3ea97d649eedea55dc3de0ea10bbb87283.stl"/>
+    <mesh name="herb/wam_1/upper_arm_link_convex_decomposition_p2" class="herb/wam_1/" file="upper_arm_link_convex_decomposition_p2-25fc59a045c74cc0c5e901bc31501e8ca212159a.stl"/>
+    <mesh name="herb/wam_1/elbow_link_fine" class="herb/wam_1/" file="elbow_link_fine-105c4e016f6a319ed74f5d55377fee15774c5d58.stl"/>
+    <mesh name="herb/wam_1/elbow_link_convex" class="herb/wam_1/" file="elbow_link_convex-618d49f47d28f374d03b62f3a4f1a11c87b40044.stl"/>
+    <mesh name="herb/wam_1/forearm_link_fine" class="herb/wam_1/" file="forearm_link_fine-e78631019336cb810525911769f36184d30c291c.stl"/>
+    <mesh name="herb/wam_1/forearm_link_convex_decomposition_p1" class="herb/wam_1/" file="forearm_link_convex_decomposition_p1-57f1e443a9d84a9b1e59b719541351dbc72b0c65.stl"/>
+    <mesh name="herb/wam_1/forearm_link_convex_decomposition_p2" class="herb/wam_1/" file="forearm_link_convex_decomposition_p2-6249b0eb91291b6e61d4566ef7bddcd133aeb11d.stl"/>
+    <mesh name="herb/wam_1/wrist_yaw_link_fine" class="herb/wam_1/" file="wrist_yaw_link_fine-3ec69f37eedc74a0b8a6edd994a49a13dec2a554.stl"/>
+    <mesh name="herb/wam_1/wrist_yaw_link_convex_decomposition_p1" class="herb/wam_1/" file="wrist_yaw_link_convex_decomposition_p1-483314d477ecff523b1f17f1b29cc860dda3b25f.stl"/>
+    <mesh name="herb/wam_1/wrist_yaw_link_convex_decomposition_p2" class="herb/wam_1/" file="wrist_yaw_link_convex_decomposition_p2-963f6bf6f5f239543cf4bbf0630fd7e3253cbd4a.stl"/>
+    <mesh name="herb/wam_1/wrist_pitch_link_fine" class="herb/wam_1/" file="wrist_pitch_link_fine-06a8aff3e76c7b3ff34cdaf40c9ed5950e2ad1fe.stl"/>
+    <mesh name="herb/wam_1/wrist_pitch_link_convex_decomposition_p1" class="herb/wam_1/" file="wrist_pitch_link_convex_decomposition_p1-3328df36bd7e249a571d0cfb2e43ac0cf17b9b77.stl"/>
+    <mesh name="herb/wam_1/wrist_pitch_link_convex_decomposition_p2" class="herb/wam_1/" file="wrist_pitch_link_convex_decomposition_p2-91c5869923c13020ad406e859d49bf3f795c96be.stl"/>
+    <mesh name="herb/wam_1/wrist_pitch_link_convex_decomposition_p3" class="herb/wam_1/" file="wrist_pitch_link_convex_decomposition_p3-744bd1df4bb176ceef61c79ab12a5b9de038d171.stl"/>
+    <mesh name="herb/wam_1/wrist_palm_link_fine" class="herb/wam_1/" file="wrist_palm_link_fine-db9db06e50f8f189c8d475b09f86be267e38a874.stl"/>
+    <mesh name="herb/wam_1/wrist_palm_link_convex" class="herb/wam_1/" file="wrist_palm_link_convex-d455a798d573176ecdc3c9794069b0e3f4f7f623.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_palm_fine" class="herb/wam_1/bhand/" file="bhand_palm_fine-dff1351ac0d212f9757a6bc04b85287b4f13403a.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p1" class="herb/wam_1/bhand/" file="bhand_palm_link_convex_decomposition_p1-f8ba6cc8e8efbe24c938e092f61618174769428c.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p2" class="herb/wam_1/bhand/" file="bhand_palm_link_convex_decomposition_p2-0a66a02812a929ee040991e6d1a7b1d11bba7bb1.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p3" class="herb/wam_1/bhand/" file="bhand_palm_link_convex_decomposition_p3-9d93e72f01b43aa200deff06df4a395d3eb5312a.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p4" class="herb/wam_1/bhand/" file="bhand_palm_link_convex_decomposition_p4-e38e089a001a0010eec12bebd2368162120ee6a2.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_prox_link_fine" class="herb/wam_1/bhand/" file="bhand_finger_prox_link_fine-b325b78dd2ffcab9984efe22434207b1d2e07e28.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p1" class="herb/wam_1/bhand/" file="bhand_finger_prox_link_convex_decomposition_p1-12071ca7dea820f8ba395c17ad58efbdd2b805a8.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p2" class="herb/wam_1/bhand/" file="bhand_finger_prox_link_convex_decomposition_p2-c728b40c271300b132049560287e0844b86833ed.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p3" class="herb/wam_1/bhand/" file="bhand_finger_prox_link_convex_decomposition_p3-561559fcb477ac41797bbd8b0da5e960b41f0363.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_med_link_fine" class="herb/wam_1/bhand/" file="bhand_finger_med_link_fine-31e862bb0515137229a05ffa049a96de151eb229.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_med_link_convex" class="herb/wam_1/bhand/" file="bhand_finger_med_link_convex-af5d2e0e2990df27924df077b297d046b710ded5.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_dist_link_fine" class="herb/wam_1/bhand/" file="bhand_finger_dist_link_fine-defe6db5320e79d25ade307bc4a42d6ef272b8d4.stl"/>
+    <mesh name="herb/wam_1/bhand/bhand_finger_dist_link_convex" class="herb/wam_1/bhand/" file="bhand_finger_dist_link_convex-dd89f87a37ef6bb33ec5f1998f123eb1e907ddef.stl"/>
+  </asset>
+  <worldbody>
+    <camera name="fixed" pos="2 -1.5 2" euler="0.785 0.785 0.785"/>
+    <geom name="floor" class="/" type="plane" condim="3" size="0 0 0.25" material="wood2d" pos="0 0 0"/>
+    <geom name="//unnamed_geom_1" class="/" type="plane" contype="0" conaffinity="0" size="15 15 0.025000000000000001" material="wall" mass="0.0" pos="-15 0 15" zaxis="1 0 0"/>
+    <geom name="//unnamed_geom_2" class="/" type="plane" contype="0" conaffinity="0" size="15 15 0.025000000000000001" material="wall" mass="0.0" pos="0 15 15" zaxis="0 -1 0"/>
+    <body name="table" pos="0 0 0.29999999999999999" quat="1 0 0 0">
+      <geom name="tabletop" class="/" type="box" group="1" size="0.40000000000000002 0.69999999999999996 0.012500000000000001" material="marblecube" pos="0 0 -0.012500000000000001"/>
+      <geom name="//unnamed_geom_4" class="/" type="cylinder" group="1" size="0.040000000000000008 0.13749999999999998" material="concretecube" pos="0.20000000000000001 0.34999999999999998 -0.14999999999999999"/>
+      <geom name="//unnamed_geom_5" class="/" type="cylinder" group="1" size="0.040000000000000008 0.13749999999999998" material="concretecube" pos="-0.20000000000000001 0.34999999999999998 -0.14999999999999999"/>
+      <geom name="//unnamed_geom_6" class="/" type="cylinder" group="1" size="0.040000000000000008 0.13749999999999998" material="concretecube" pos="0.20000000000000001 -0.34999999999999998 -0.14999999999999999"/>
+      <geom name="//unnamed_geom_7" class="/" type="cylinder" group="1" size="0.040000000000000008 0.13749999999999998" material="concretecube" pos="-0.20000000000000001 -0.34999999999999998 -0.14999999999999999"/>
+    </body>
+    <body name="herb/">
+      <body name="herb/herb" pos="-0.80000000000000004 0 0.050999999999999997">
+        <geom name="herb//unnamed_geom_0" class="herb/viz" type="mesh" rgba="0.29999999999999999 0 0 1" pos="0 0 1.05" quat="0.5 0.499977 0.5 0.500023" mesh="herb/herb_frame"/>
+        <geom name="herb//unnamed_geom_1" class="herb/" type="mesh" rgba="0.29999999999999999 0 0 1" pos="0 0 1.05" quat="3.2758700000000002e-05 3.2757199999999999e-05 -0.70709 -0.70712299999999995" mesh="herb/herb_frame_collision"/>
+        <geom name="herb//unnamed_geom_2" class="herb/viz" type="mesh" rgba="0.29999999999999999 0.29999999999999999 0.29999999999999999 1" pos="-0.074085999999999999 -3.43217e-06 -0.051243999999999998" quat="0.70709100000000003 0 0 0.70712299999999995" mesh="herb/herb_neobotix_base"/>
+        <geom name="herb//unnamed_geom_3" class="herb/" type="mesh" rgba="0.29999999999999999 0.29999999999999999 0.29999999999999999 1" pos="-0.074085999999999999 -3.43217e-06 -0.051243999999999998" quat="2.3108400000000001e-07 2.31074e-07 0.70709 0.70712299999999995" mesh="herb/herb_neobotix_base_collision"/>
+        <geom name="herb//unnamed_geom_4" class="herb/viz" type="mesh" pos="0.1249 5.7862200000000003e-06 1.1008100000000001" quat="2.3108400000000001e-07 0.70712299999999995 -0.70709 -2.31074e-07" mesh="herb/herb_neck_pan"/>
+        <geom name="herb//unnamed_geom_5" class="herb/" type="mesh" pos="0.1249 5.7862200000000003e-06 1.1008100000000001" quat="0.5 0.500023 -0.5 -0.499977" mesh="herb/herb_neck_pan_collision"/>
+        <geom name="herb//unnamed_geom_6" class="herb/viz" type="mesh" pos="0.1249 5.7862200000000003e-06 1.1927099999999999" quat="0.24185100000000001 0.66447800000000001 -0.66444800000000004 -0.241839" mesh="herb/herb_neck_tilt"/>
+        <geom name="herb//unnamed_geom_7" class="herb/" type="mesh" pos="0.1249 5.7862200000000003e-06 1.1927099999999999" quat="-0.29881400000000002 -0.640849 -0.64087799999999995 -0.29882799999999998" mesh="herb/herb_neck_tilt_collision"/>
+        <geom name="herb//unnamed_geom_8" class="herb/viz" type="mesh" rgba="0.29999999999999999 0.29999999999999999 0.29999999999999999 1" pos="0.32064500000000001 0.0039098500000000003 1.33653" quat="0.64086399999999999 0.29885800000000001 -0.298844 -0.64083500000000004" mesh="herb/herb_crl_head"/>
+        <geom name="herb//unnamed_geom_9" class="herb/" type="mesh" rgba="0.29999999999999999 0.29999999999999999 0.29999999999999999 1" pos="0.124906 0.0077957900000000004 1.1927000000000001" quat="0.298844 0.64083500000000004 0.64086399999999999 0.29885699999999998" mesh="herb/herb_crl_head_collision"/>
+        <geom name="herb//unnamed_geom_10" class="herb/viz" type="mesh" rgba="0.25 0.25 0.25 1" pos="0.19753100000000001 0.0077991500000000004 1.2177" quat="0.66447999999999996 0.66445699999999996 0.24182999999999999 -0.24182999999999999" mesh="herb/herb_kinect"/>
+        <geom name="herb//unnamed_geom_11" class="herb/" type="mesh" rgba="0.25 0.25 0.25 1" pos="0.12545899999999999 0.0077976399999999998 1.19333" quat="0.29885200000000001 0.64085700000000001 0.64084300000000005 0.29885" mesh="herb/herb_kinect_collision"/>
+        <site name="herb/right_arm" class="herb/" pos="0.012500000000000001 -0.22 0.92000000000000004" quat="0 -0.70709999999999995 0 -0.70709999999999995"/>
+        <body pos="0.012500000000000001 -0.22 0.92000000000000004" quat="0 -0.70709999999999995 0 -0.70709999999999995" name="herb/wam_1/">
+          <body name="herb/wam_1/1_base_link" pos="0 0 0" quat="1 0 0 0">
+            <inertial pos="0 0 0" mass="1.0" diaginertia="0.10000000000000001 0.10000000000000001 0.10000000000000001"/>
+            <geom name="herb/wam_1//unnamed_geom_0" class="herb/wam_1/viz" mesh="herb/wam_1/base_link_fine"/>
+            <geom name="herb/wam_1//unnamed_geom_1" class="herb/wam_1/col" mesh="herb/wam_1/base_link_convex"/>
+            <body name="herb/wam_1/2_shoulder_yaw_link" pos="0 0 0.34599999999999997">
+              <inertial pos="-0.00443422 -0.00066489000000000001 -0.12890399999999999" quat="0.69565999999999995 0.71671300000000004 -0.035486299999999998 0.033483899999999997" mass="5.0" diaginertia="0.13508899999999999 0.113095 0.090442599999999998"/>
+              <joint name="herb/wam_1/j1_base_yaw_joint" class="herb/wam_1/" range="-2.6000000000000001 2.6000000000000001" damping="1.98"/>
+              <geom name="herb/wam_1//unnamed_geom_2" class="herb/wam_1/viz" mesh="herb/wam_1/shoulder_link_fine"/>
+              <geom name="herb/wam_1//unnamed_geom_3" class="herb/wam_1/col" mesh="herb/wam_1/shoulder_link_convex_decomposition_p1"/>
+              <geom name="herb/wam_1//unnamed_geom_4" class="herb/wam_1/col" mesh="herb/wam_1/shoulder_link_convex_decomposition_p2"/>
+              <geom name="herb/wam_1//unnamed_geom_5" class="herb/wam_1/col" mesh="herb/wam_1/shoulder_link_convex_decomposition_p3"/>
+              <body name="herb/wam_1/3_shoulder_pitch_link" pos="0 0 0" quat="0.41599999999999998 -0.41599999999999998 0.57199999999999995 0.57199999999999995">
+                <inertial pos="-0.00236981 -0.0154211 0.0310561" quat="0.96179400000000004 0.27311200000000002 -0.016931600000000002 0.0086659200000000006" mass="3.87494" diaginertia="0.021419500000000001 0.0167127 0.012645200000000001"/>
+                <joint name="herb/wam_1/j2_shoulder_pitch_joint" class="herb/wam_1/" range="-1.9850000000000001 1.9850000000000001" ref="1.885" damping="0.55"/>
+                <geom name="herb/wam_1//unnamed_geom_6" class="herb/wam_1/viz" mesh="herb/wam_1/shoulder_pitch_link_fine"/>
+                <geom name="herb/wam_1//unnamed_geom_7" class="herb/wam_1/col" mesh="herb/wam_1/shoulder_pitch_link_convex"/>
+                <body name="herb/wam_1/4_upper_arm_link" pos="0 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                  <inertial pos="0.0068325900000000004 3.3090000000000003e-05 0.39249200000000001" quat="0.64713600000000004 0.017082199999999999 0.0143038 0.76204899999999998" mass="2.20228" diaginertia="0.059271799999999999 0.059220700000000001 0.0031341899999999998"/>
+                  <joint name="herb/wam_1/j3_shoulder_yaw_joint" class="herb/wam_1/" range="-2.7999999999999998 2.7999999999999998" damping="1.65"/>
+                  <geom name="herb/wam_1//unnamed_geom_8" class="herb/wam_1/viz" mesh="herb/wam_1/upper_arm_link_fine"/>
+                  <geom name="herb/wam_1//unnamed_geom_9" class="herb/wam_1/col" mesh="herb/wam_1/upper_arm_link_convex_decomposition_p1"/>
+                  <geom name="herb/wam_1//unnamed_geom_10" class="herb/wam_1/col" mesh="herb/wam_1/upper_arm_link_convex_decomposition_p2"/>
+                  <body name="herb/wam_1/5_forearm_link" pos="0.044999999999999998 0 0.55000000000000004" quat="0.35399999999999998 -0.35399999999999998 0.61199999999999999 0.61199999999999999">
+                    <inertial pos="-0.040014899999999999 -0.14271700000000001 -0.00022942000000000001" quat="0.70428100000000005 0.70632600000000001 0.018033299999999999 0.069035299999999994" mass="0.500168" diaginertia="0.0151047 0.0148285 0.0027580500000000002"/>
+                    <joint name="herb/wam_1/j4_elbow_pitch_joint" class="herb/wam_1/" range="-0.90000000000000002 3.1415899999999999" ref="2.0944" damping="0.88"/>
+                    <geom name="herb/wam_1//unnamed_geom_11" class="herb/wam_1/viz" mesh="herb/wam_1/elbow_link_fine"/>
+                    <geom name="herb/wam_1//unnamed_geom_12" class="herb/wam_1/col" mesh="herb/wam_1/elbow_link_convex"/>
+                    <geom name="herb/wam_1//unnamed_geom_13" class="herb/wam_1/viz" pos="-0.044999999999999998 -0.072999999999999995 0" euler="1.5700000000000001 0 0" mesh="herb/wam_1/forearm_link_fine"/>
+                    <geom name="herb/wam_1//unnamed_geom_14" class="herb/wam_1/col" pos="-0.044999999999999998 -0.072999999999999995 0" euler="1.5700000000000001 0 0" mesh="herb/wam_1/forearm_link_convex_decomposition_p1"/>
+                    <geom name="herb/wam_1//unnamed_geom_15" class="herb/wam_1/col" pos="-0.044999999999999998 -0.072999999999999995 0" euler="1.5700000000000001 0 0" mesh="herb/wam_1/forearm_link_convex_decomposition_p2"/>
+                    <body name="herb/wam_1/6_wrist_yaw_link" pos="-0.044999999999999998 -0.29999999999999999 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                      <inertial pos="8.9209999999999995e-05 0.0043582400000000002 -0.0051121700000000001" quat="0.630602 0.77609300000000003 0.0040196900000000002 -0.002372" mass="1.05376" diaginertia="0.00055516799999999998 0.00046317 0.00023407199999999999"/>
+                      <joint name="herb/wam_1/j5_wrist_yaw_joint" class="herb/wam_1/" range="-4.5499999999999998 1.25" damping="0.55"/>
+                      <geom name="herb/wam_1//unnamed_geom_16" class="herb/wam_1/viz" mesh="herb/wam_1/wrist_yaw_link_fine"/>
+                      <geom name="herb/wam_1//unnamed_geom_17" class="herb/wam_1/col" mesh="herb/wam_1/wrist_yaw_link_convex_decomposition_p1"/>
+                      <geom name="herb/wam_1//unnamed_geom_18" class="herb/wam_1/col" mesh="herb/wam_1/wrist_yaw_link_convex_decomposition_p2"/>
+                      <body name="herb/wam_1/7_wrist_pitch_link" pos="0 0 0" quat="0.70710700000000004 -0.70710700000000004 0 0">
+                        <inertial pos="-0.00012261999999999999 -0.024683400000000001 -0.017031899999999999" quat="0.630602 0.77609300000000003 0.0040196900000000002 -0.002372" mass="0.517974" diaginertia="0.00055516799999999998 0.00046317 0.00023407199999999999"/>
+                        <joint name="herb/wam_1/j6_wrist_pitch_joint" class="herb/wam_1/" range="-1.5707 1.5707" damping="0.11"/>
+                        <geom name="herb/wam_1//unnamed_geom_19" class="herb/wam_1/viz" mesh="herb/wam_1/wrist_pitch_link_fine"/>
+                        <geom name="herb/wam_1//unnamed_geom_20" class="herb/wam_1/col" mesh="herb/wam_1/wrist_pitch_link_convex_decomposition_p1"/>
+                        <geom name="herb/wam_1//unnamed_geom_21" class="herb/wam_1/col" mesh="herb/wam_1/wrist_pitch_link_convex_decomposition_p2"/>
+                        <geom name="herb/wam_1//unnamed_geom_22" class="herb/wam_1/col" mesh="herb/wam_1/wrist_pitch_link_convex_decomposition_p3"/>
+                        <body name="herb/wam_1/8_wrist_palm_link" pos="0 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                          <inertial pos="0 0 0.055" quat="0.70710700000000004 0 0 0.70710700000000004" mass="0.0828613" diaginertia="0.00020683 0.00010859 0.00010851"/>
+                          <joint name="herb/wam_1/j7_palm_yaw_joint" class="herb/wam_1/" range="-3 3" damping="0.11"/>
+                          <geom name="herb/wam_1//unnamed_geom_23" class="herb/wam_1/viz" mesh="herb/wam_1/wrist_palm_link_fine"/>
+                          <geom name="herb/wam_1//unnamed_geom_24" class="herb/wam_1/col" mesh="herb/wam_1/wrist_palm_link_convex"/>
+                          <site name="herb/wam_1/hand_attachment" class="herb/wam_1/"/>
+                          <!-- <body name="herb/wam_1/bhand/">
+                            <body name="herb/wam_1/bhand/bhand_palm_link" pos="0 0 0.059999999999999998" quat="0 0 0 1">
+                              <inertial pos="-5.1097999999999998e-05 0.0050432999999999997 0.036671000000000002" quat="0.55309799999999998 0.43904700000000002 0.43445600000000001 0.55907799999999996" mass="0.50573" diaginertia="0.000224052 0.00021070099999999999 2.8121200000000001e-05"/>
+                              <geom name="herb/wam_1/bhand//unnamed_geom_0" class="herb/wam_1/bhand/viz" mesh="herb/wam_1/bhand/bhand_palm_fine"/>
+                              <geom name="herb/wam_1/bhand//unnamed_geom_1" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p1"/>
+                              <geom name="herb/wam_1/bhand//unnamed_geom_2" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p2"/>
+                              <geom name="herb/wam_1/bhand//unnamed_geom_3" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p3"/>
+                              <geom name="herb/wam_1/bhand//unnamed_geom_4" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_palm_link_convex_decomposition_p4"/>
+                              <body name="herb/wam_1/bhand/finger11" pos="-0.025000000000000001 0 0.041500000000000002" quat="0.70710700000000004 0 0 -0.70710700000000004">
+                                <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.14109" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                <joint name="herb/wam_1/bhand/j11" class="herb/wam_1/bhand/" axis="0 0 -1" range="0 3.1415899999999999" damping="0.11"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_5" class="herb/wam_1/bhand/viz" mesh="herb/wam_1/bhand/bhand_finger_prox_link_fine"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_6" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p1"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_7" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p2"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_8" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p3"/>
+                                <body name="herb/wam_1/bhand/finger12" pos="0.050000000000000003 0 0.0339" quat="0.70710700000000004 0.70710700000000004 0 0">
+                                  <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.062139" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                  <joint name="herb/wam_1/bhand/j12" class="herb/wam_1/bhand/" range="0 2.44346" damping="0.11"/>
+                                  <geom name="herb/wam_1/bhand//unnamed_geom_9" class="herb/wam_1/bhand/viz" mesh="herb/wam_1/bhand/bhand_finger_med_link_fine"/>
+                                  <geom name="herb/wam_1/bhand//unnamed_geom_10" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_med_link_convex"/>
+                                  <body name="herb/wam_1/bhand/finger13" pos="0.069940000000000002 0.0030000000000000001 0" quat="0.92388000000000003 0 0 0.382683">
+                                    <inertial pos="0.022825000000000002 0.0010491000000000001 0.00042030000000000002" quat="0.50841199999999998 0.51165000000000005 0.48958299999999999 0.48993900000000001" mass="0.041377" diaginertia="3.8433999999999998e-05 3.7275299999999999e-05 3.0998700000000002e-06"/>
+                                    <joint name="herb/wam_1/bhand/j13" class="herb/wam_1/bhand/" range="0 0.837758" damping="0.11"/>
+                                    <geom name="herb/wam_1/bhand//unnamed_geom_11" class="herb/wam_1/bhand/viz" euler="0 0 -0.83999999999999997" mesh="herb/wam_1/bhand/bhand_finger_dist_link_fine"/>
+                                    <geom name="herb/wam_1/bhand//unnamed_geom_12" class="herb/wam_1/bhand/col" euler="0 0 -0.83999999999999997" mesh="herb/wam_1/bhand/bhand_finger_dist_link_convex"/>
+                                  </body>
+                                </body>
+                              </body>
+                              <body name="herb/wam_1/bhand/finger21" pos="0.025000000000000001 0 0.041500000000000002" quat="0.70710700000000004 0 0 -0.70710700000000004">
+                                <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.14109" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                <joint name="herb/wam_1/bhand/j21" class="herb/wam_1/bhand/" range="0 3.1415899999999999" damping="0.11"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_13" class="herb/wam_1/bhand/viz" mesh="herb/wam_1/bhand/bhand_finger_prox_link_fine"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_14" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p1"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_15" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p2"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_16" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_prox_link_convex_decomposition_p3"/>
+                                <body name="herb/wam_1/bhand/finger22" pos="0.050000000000000003 0 0.0339" quat="0.70710700000000004 0.70710700000000004 0 0">
+                                  <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.062139" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                  <joint name="herb/wam_1/bhand/j22" class="herb/wam_1/bhand/" range="0 2.44346" damping="0.11"/>
+                                  <geom name="herb/wam_1/bhand//unnamed_geom_17" class="herb/wam_1/bhand/viz" mesh="herb/wam_1/bhand/bhand_finger_med_link_fine"/>
+                                  <geom name="herb/wam_1/bhand//unnamed_geom_18" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_med_link_convex"/>
+                                  <body name="herb/wam_1/bhand/finger23" pos="0.069940000000000002 0.0030000000000000001 0" quat="0.92388000000000003 0 0 0.382683">
+                                    <inertial pos="0.022825000000000002 0.0010491000000000001 0.00042030000000000002" quat="0.50841199999999998 0.51165000000000005 0.48958299999999999 0.48993900000000001" mass="0.041377" diaginertia="3.8433999999999998e-05 3.7275299999999999e-05 3.0998700000000002e-06"/>
+                                    <joint name="herb/wam_1/bhand/j23" class="herb/wam_1/bhand/" range="0 0.837758" damping="0.11"/>
+                                    <geom name="herb/wam_1/bhand//unnamed_geom_19" class="herb/wam_1/bhand/viz" euler="0 0 -0.83999999999999997" mesh="herb/wam_1/bhand/bhand_finger_dist_link_fine"/>
+                                    <geom name="herb/wam_1/bhand//unnamed_geom_20" class="herb/wam_1/bhand/col" euler="0 0 -0.83999999999999997" mesh="herb/wam_1/bhand/bhand_finger_dist_link_convex"/>
+                                  </body>
+                                </body>
+                              </body>
+                              <body name="herb/wam_1/bhand/finger32" pos="0 0.050000000000000003 0.075399999999999995" quat="0.5 0.5 0.5 0.5">
+                                <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.062139" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                <joint name="herb/wam_1/bhand/j32" class="herb/wam_1/bhand/" range="0 2.44346" damping="0.11"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_21" class="herb/wam_1/bhand/viz" mesh="herb/wam_1/bhand/bhand_finger_med_link_fine"/>
+                                <geom name="herb/wam_1/bhand//unnamed_geom_22" class="herb/wam_1/bhand/col" mesh="herb/wam_1/bhand/bhand_finger_med_link_convex"/>
+                                <body name="herb/wam_1/bhand/finger33" pos="0.069940000000000002 0.0030000000000000001 0" quat="0.92388000000000003 0 0 0.382683">
+                                  <inertial pos="0.022825000000000002 0.0010491000000000001 0.00042030000000000002" quat="0.50841199999999998 0.51165000000000005 0.48958299999999999 0.48993900000000001" mass="0.041377" diaginertia="3.8433999999999998e-05 3.7275299999999999e-05 3.0998700000000002e-06"/>
+                                  <joint name="herb/wam_1/bhand/j33" class="herb/wam_1/bhand/" range="0 0.837758" damping="0.11"/>
+                                  <geom name="herb/wam_1/bhand//unnamed_geom_23" class="herb/wam_1/bhand/viz" euler="0 0 -0.83999999999999997" mesh="herb/wam_1/bhand/bhand_finger_dist_link_fine"/>
+                                  <geom name="herb/wam_1/bhand//unnamed_geom_24" class="herb/wam_1/bhand/col" euler="0 0 -0.83999999999999997" mesh="herb/wam_1/bhand/bhand_finger_dist_link_convex"/>
+                                </body>
+                              </body>
+                            </body>
+                          </body> -->
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        <site name="herb/left_arm" class="herb/" pos="0.012500000000000001 0.22 0.92000000000000004" quat="0 -0.70709999999999995 0 -0.70709999999999995"/>
+        <body pos="0.012500000000000001 0.22 0.92000000000000004" quat="0 -0.70709999999999995 0 -0.70709999999999995" name="herb/wam/">
+          <body name="herb/wam/1_base_link" pos="0 0 0" quat="1 0 0 0">
+            <inertial pos="0 0 0" mass="1.0" diaginertia="0.10000000000000001 0.10000000000000001 0.10000000000000001"/>
+            <geom name="herb/wam//unnamed_geom_0" class="herb/wam/viz" mesh="herb/wam/base_link_fine"/>
+            <geom name="herb/wam//unnamed_geom_1" class="herb/wam/col" mesh="herb/wam/base_link_convex"/>
+            <body name="herb/wam/2_shoulder_yaw_link" pos="0 0 0.34599999999999997">
+              <inertial pos="-0.00443422 -0.00066489000000000001 -0.12890399999999999" quat="0.69565999999999995 0.71671300000000004 -0.035486299999999998 0.033483899999999997" mass="5.0" diaginertia="0.13508899999999999 0.113095 0.090442599999999998"/>
+              <joint name="herb/wam/j1_base_yaw_joint" class="herb/wam/" range="-2.6000000000000001 2.6000000000000001" damping="1.98"/>
+              <geom name="herb/wam//unnamed_geom_2" class="herb/wam/viz" mesh="herb/wam/shoulder_link_fine"/>
+              <geom name="herb/wam//unnamed_geom_3" class="herb/wam/col" mesh="herb/wam/shoulder_link_convex_decomposition_p1"/>
+              <geom name="herb/wam//unnamed_geom_4" class="herb/wam/col" mesh="herb/wam/shoulder_link_convex_decomposition_p2"/>
+              <geom name="herb/wam//unnamed_geom_5" class="herb/wam/col" mesh="herb/wam/shoulder_link_convex_decomposition_p3"/>
+              <body name="herb/wam/3_shoulder_pitch_link" pos="0 0 0" quat="0.41599999999999998 -0.41599999999999998 0.57199999999999995 0.57199999999999995">
+                <inertial pos="-0.00236981 -0.0154211 0.0310561" quat="0.96179400000000004 0.27311200000000002 -0.016931600000000002 0.0086659200000000006" mass="3.87494" diaginertia="0.021419500000000001 0.0167127 0.012645200000000001"/>
+                <joint name="herb/wam/j2_shoulder_pitch_joint" class="herb/wam/" range="-1.9850000000000001 1.9850000000000001" ref="1.885" damping="0.55"/>
+                <geom name="herb/wam//unnamed_geom_6" class="herb/wam/viz" mesh="herb/wam/shoulder_pitch_link_fine"/>
+                <geom name="herb/wam//unnamed_geom_7" class="herb/wam/col" mesh="herb/wam/shoulder_pitch_link_convex"/>
+                <body name="herb/wam/4_upper_arm_link" pos="0 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                  <inertial pos="0.0068325900000000004 3.3090000000000003e-05 0.39249200000000001" quat="0.64713600000000004 0.017082199999999999 0.0143038 0.76204899999999998" mass="2.20228" diaginertia="0.059271799999999999 0.059220700000000001 0.0031341899999999998"/>
+                  <joint name="herb/wam/j3_shoulder_yaw_joint" class="herb/wam/" range="-2.7999999999999998 2.7999999999999998" damping="1.65"/>
+                  <geom name="herb/wam//unnamed_geom_8" class="herb/wam/viz" mesh="herb/wam/upper_arm_link_fine"/>
+                  <geom name="herb/wam//unnamed_geom_9" class="herb/wam/col" mesh="herb/wam/upper_arm_link_convex_decomposition_p1"/>
+                  <geom name="herb/wam//unnamed_geom_10" class="herb/wam/col" mesh="herb/wam/upper_arm_link_convex_decomposition_p2"/>
+                  <body name="herb/wam/5_forearm_link" pos="0.044999999999999998 0 0.55000000000000004" quat="0.35399999999999998 -0.35399999999999998 0.61199999999999999 0.61199999999999999">
+                    <inertial pos="-0.040014899999999999 -0.14271700000000001 -0.00022942000000000001" quat="0.70428100000000005 0.70632600000000001 0.018033299999999999 0.069035299999999994" mass="0.500168" diaginertia="0.0151047 0.0148285 0.0027580500000000002"/>
+                    <joint name="herb/wam/j4_elbow_pitch_joint" class="herb/wam/" range="-0.90000000000000002 3.1415899999999999" ref="2.0944" damping="0.88"/>
+                    <geom name="herb/wam//unnamed_geom_11" class="herb/wam/viz" mesh="herb/wam/elbow_link_fine"/>
+                    <geom name="herb/wam//unnamed_geom_12" class="herb/wam/col" mesh="herb/wam/elbow_link_convex"/>
+                    <geom name="herb/wam//unnamed_geom_13" class="herb/wam/viz" pos="-0.044999999999999998 -0.072999999999999995 0" euler="1.5700000000000001 0 0" mesh="herb/wam/forearm_link_fine"/>
+                    <geom name="herb/wam//unnamed_geom_14" class="herb/wam/col" pos="-0.044999999999999998 -0.072999999999999995 0" euler="1.5700000000000001 0 0" mesh="herb/wam/forearm_link_convex_decomposition_p1"/>
+                    <geom name="herb/wam//unnamed_geom_15" class="herb/wam/col" pos="-0.044999999999999998 -0.072999999999999995 0" euler="1.5700000000000001 0 0" mesh="herb/wam/forearm_link_convex_decomposition_p2"/>
+                    <body name="herb/wam/6_wrist_yaw_link" pos="-0.044999999999999998 -0.29999999999999999 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                      <inertial pos="8.9209999999999995e-05 0.0043582400000000002 -0.0051121700000000001" quat="0.630602 0.77609300000000003 0.0040196900000000002 -0.002372" mass="1.05376" diaginertia="0.00055516799999999998 0.00046317 0.00023407199999999999"/>
+                      <joint name="herb/wam/j5_wrist_yaw_joint" class="herb/wam/" range="-4.5499999999999998 1.25" damping="0.55"/>
+                      <geom name="herb/wam//unnamed_geom_16" class="herb/wam/viz" mesh="herb/wam/wrist_yaw_link_fine"/>
+                      <geom name="herb/wam//unnamed_geom_17" class="herb/wam/col" mesh="herb/wam/wrist_yaw_link_convex_decomposition_p1"/>
+                      <geom name="herb/wam//unnamed_geom_18" class="herb/wam/col" mesh="herb/wam/wrist_yaw_link_convex_decomposition_p2"/>
+                      <body name="herb/wam/7_wrist_pitch_link" pos="0 0 0" quat="0.70710700000000004 -0.70710700000000004 0 0">
+                        <inertial pos="-0.00012261999999999999 -0.024683400000000001 -0.017031899999999999" quat="0.630602 0.77609300000000003 0.0040196900000000002 -0.002372" mass="0.517974" diaginertia="0.00055516799999999998 0.00046317 0.00023407199999999999"/>
+                        <joint name="herb/wam/j6_wrist_pitch_joint" class="herb/wam/" range="-1.5707 1.5707" damping="0.11"/>
+                        <geom name="herb/wam//unnamed_geom_19" class="herb/wam/viz" mesh="herb/wam/wrist_pitch_link_fine"/>
+                        <geom name="herb/wam//unnamed_geom_20" class="herb/wam/col" mesh="herb/wam/wrist_pitch_link_convex_decomposition_p1"/>
+                        <geom name="herb/wam//unnamed_geom_21" class="herb/wam/col" mesh="herb/wam/wrist_pitch_link_convex_decomposition_p2"/>
+                        <geom name="herb/wam//unnamed_geom_22" class="herb/wam/col" mesh="herb/wam/wrist_pitch_link_convex_decomposition_p3"/>
+                        <body name="herb/wam/8_wrist_palm_link" pos="0 0 0" quat="0.70710700000000004 0.70710700000000004 0 0">
+                          <inertial pos="0 0 0.055" quat="0.70710700000000004 0 0 0.70710700000000004" mass="0.0828613" diaginertia="0.00020683 0.00010859 0.00010851"/>
+                          <joint name="herb/wam/j7_palm_yaw_joint" class="herb/wam/" range="-3 3" damping="0.11"/>
+                          <geom name="herb/wam//unnamed_geom_23" class="herb/wam/viz" mesh="herb/wam/wrist_palm_link_fine"/>
+                          <geom name="herb/wam//unnamed_geom_24" class="herb/wam/col" mesh="herb/wam/wrist_palm_link_convex"/>
+                          <site name="herb/wam/hand_attachment" class="herb/wam/"/>
+                          <body name="herb/wam/bhand/">
+                            <body name="herb/wam/bhand/bhand_palm_link" pos="0 0 0.059999999999999998" quat="0 0 0 1">
+                              <inertial pos="-5.1097999999999998e-05 0.0050432999999999997 0.036671000000000002" quat="0.55309799999999998 0.43904700000000002 0.43445600000000001 0.55907799999999996" mass="0.50573" diaginertia="0.000224052 0.00021070099999999999 2.8121200000000001e-05"/>
+                              <geom name="herb/wam/bhand//unnamed_geom_0" class="herb/wam/bhand/viz" mesh="herb/wam/bhand/bhand_palm_fine"/>
+                              <geom name="herb/wam/bhand//unnamed_geom_1" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_palm_link_convex_decomposition_p1"/>
+                              <geom name="herb/wam/bhand//unnamed_geom_2" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_palm_link_convex_decomposition_p2"/>
+                              <geom name="herb/wam/bhand//unnamed_geom_3" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_palm_link_convex_decomposition_p3"/>
+                              <geom name="herb/wam/bhand//unnamed_geom_4" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_palm_link_convex_decomposition_p4"/>
+                              <body name="herb/wam/bhand/finger11" pos="-0.025000000000000001 0 0.041500000000000002" quat="0.70710700000000004 0 0 -0.70710700000000004">
+                                <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.14109" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                <joint name="herb/wam/bhand/j11" class="herb/wam/bhand/" axis="0 0 -1" range="0 3.1415899999999999" damping="0.11"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_5" class="herb/wam/bhand/viz" mesh="herb/wam/bhand/bhand_finger_prox_link_fine"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_6" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p1"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_7" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p2"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_8" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p3"/>
+                                <body name="herb/wam/bhand/finger12" pos="0.050000000000000003 0 0.0339" quat="0.70710700000000004 0.70710700000000004 0 0">
+                                  <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.062139" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                  <joint name="herb/wam/bhand/j12" class="herb/wam/bhand/" range="0 2.44346" damping="0.11"/>
+                                  <geom name="herb/wam/bhand//unnamed_geom_9" class="herb/wam/bhand/viz" mesh="herb/wam/bhand/bhand_finger_med_link_fine"/>
+                                  <geom name="herb/wam/bhand//unnamed_geom_10" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_med_link_convex"/>
+                                  <body name="herb/wam/bhand/finger13" pos="0.069940000000000002 0.0030000000000000001 0" quat="0.92388000000000003 0 0 0.382683">
+                                    <inertial pos="0.022825000000000002 0.0010491000000000001 0.00042030000000000002" quat="0.50841199999999998 0.51165000000000005 0.48958299999999999 0.48993900000000001" mass="0.041377" diaginertia="3.8433999999999998e-05 3.7275299999999999e-05 3.0998700000000002e-06"/>
+                                    <joint name="herb/wam/bhand/j13" class="herb/wam/bhand/" range="0 0.837758" damping="0.11"/>
+                                    <geom name="herb/wam/bhand//unnamed_geom_11" class="herb/wam/bhand/viz" euler="0 0 -0.83999999999999997" mesh="herb/wam/bhand/bhand_finger_dist_link_fine"/>
+                                    <geom name="herb/wam/bhand//unnamed_geom_12" class="herb/wam/bhand/col" euler="0 0 -0.83999999999999997" mesh="herb/wam/bhand/bhand_finger_dist_link_convex"/>
+                                  </body>
+                                </body>
+                              </body>
+                              <body name="herb/wam/bhand/finger21" pos="0.025000000000000001 0 0.041500000000000002" quat="0.70710700000000004 0 0 -0.70710700000000004">
+                                <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.14109" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                <joint name="herb/wam/bhand/j21" class="herb/wam/bhand/" range="0 3.1415899999999999" damping="0.11"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_13" class="herb/wam/bhand/viz" mesh="herb/wam/bhand/bhand_finger_prox_link_fine"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_14" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p1"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_15" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p2"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_16" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_prox_link_convex_decomposition_p3"/>
+                                <body name="herb/wam/bhand/finger22" pos="0.050000000000000003 0 0.0339" quat="0.70710700000000004 0.70710700000000004 0 0">
+                                  <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.062139" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                  <joint name="herb/wam/bhand/j22" class="herb/wam/bhand/" range="0 2.44346" damping="0.11"/>
+                                  <geom name="herb/wam/bhand//unnamed_geom_17" class="herb/wam/bhand/viz" mesh="herb/wam/bhand/bhand_finger_med_link_fine"/>
+                                  <geom name="herb/wam/bhand//unnamed_geom_18" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_med_link_convex"/>
+                                  <body name="herb/wam/bhand/finger23" pos="0.069940000000000002 0.0030000000000000001 0" quat="0.92388000000000003 0 0 0.382683">
+                                    <inertial pos="0.022825000000000002 0.0010491000000000001 0.00042030000000000002" quat="0.50841199999999998 0.51165000000000005 0.48958299999999999 0.48993900000000001" mass="0.041377" diaginertia="3.8433999999999998e-05 3.7275299999999999e-05 3.0998700000000002e-06"/>
+                                    <joint name="herb/wam/bhand/j23" class="herb/wam/bhand/" range="0 0.837758" damping="0.11"/>
+                                    <geom name="herb/wam/bhand//unnamed_geom_19" class="herb/wam/bhand/viz" euler="0 0 -0.83999999999999997" mesh="herb/wam/bhand/bhand_finger_dist_link_fine"/>
+                                    <geom name="herb/wam/bhand//unnamed_geom_20" class="herb/wam/bhand/col" euler="0 0 -0.83999999999999997" mesh="herb/wam/bhand/bhand_finger_dist_link_convex"/>
+                                  </body>
+                                </body>
+                              </body>
+                              <body name="herb/wam/bhand/finger32" pos="0 0.050000000000000003 0.075399999999999995" quat="0.5 0.5 0.5 0.5">
+                                <inertial pos="0.023133000000000001 0.00078642000000000002 0.00052791999999999997" quat="0.016079599999999999 0.70726900000000004 -0.00076600799999999999 0.706762" mass="0.062139" diaginertia="7.7733500000000004e-05 7.6628199999999999e-05 4.8312200000000001e-06"/>
+                                <joint name="herb/wam/bhand/j32" class="herb/wam/bhand/" range="0 2.44346" damping="0.11"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_21" class="herb/wam/bhand/viz" mesh="herb/wam/bhand/bhand_finger_med_link_fine"/>
+                                <geom name="herb/wam/bhand//unnamed_geom_22" class="herb/wam/bhand/col" mesh="herb/wam/bhand/bhand_finger_med_link_convex"/>
+                                <body name="herb/wam/bhand/finger33" pos="0.069940000000000002 0.0030000000000000001 0" quat="0.92388000000000003 0 0 0.382683">
+                                  <inertial pos="0.022825000000000002 0.0010491000000000001 0.00042030000000000002" quat="0.50841199999999998 0.51165000000000005 0.48958299999999999 0.48993900000000001" mass="0.041377" diaginertia="3.8433999999999998e-05 3.7275299999999999e-05 3.0998700000000002e-06"/>
+                                  <joint name="herb/wam/bhand/j33" class="herb/wam/bhand/" range="0 0.837758" damping="0.11"/>
+                                  <geom name="herb/wam/bhand//unnamed_geom_23" class="herb/wam/bhand/viz" euler="0 0 -0.83999999999999997" mesh="herb/wam/bhand/bhand_finger_dist_link_fine"/>
+                                  <geom name="herb/wam/bhand//unnamed_geom_24" class="herb/wam/bhand/col" euler="0 0 -0.83999999999999997" mesh="herb/wam/bhand/bhand_finger_dist_link_convex"/>
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <light name="herb//unnamed_light_0" class="herb/" mode="targetbodycom" target="herb/herb" castshadow="true" pos="1 1 4.5" diffuse="0.80000000000000004 0.80000000000000004 0.80000000000000004" specular="0.40000000000000002 0.40000000000000002 0.40000000000000002"/>
+    </body>
+    <body name="box_1" pos="-0.053464621446560029 0.54183395581142424 0.35499999999999998">
+      <geom name="//unnamed_geom_8" class="/" type="box" group="1" size="0.060657792055860901 0.055 0.055" rgba="0 0 0 1"/>
+      <joint name="//unnamed_joint_0" class="/" type="free"/>
+    </body>
+    <!-- <body name="box_2" pos="0.13900801576105609 -0.42142641007555215 0.35499999999999998">
+      <geom name="//unnamed_geom_9" class="/" type="box" group="1" size="0.076178097189418481 0.067434992230686885 0.055" rgba="1 1 0.38431376218795776 1"/>
+      <joint name="//unnamed_joint_1" class="/" type="free"/>
+    </body> -->
+    <!-- <body name="box_3" pos="-0.28870895581142419 -0.54183395581142413 0.35499999999999998">
+      <geom name="//unnamed_geom_10" class="/" type="box" group="1" size="0.060027579686085103 0.055 0.055" rgba="1 0.62352943420410156 1 1"/>
+      <joint name="//unnamed_joint_2" class="/" type="free"/>
+    </body> -->
+    <!-- <body name="box_4" pos="0.18177971291830414 0.38129056149692808 0.35499999999999998">
+      <geom name="//unnamed_geom_11" class="/" type="box" group="1" size="0.062757255018445174 0.065252737323892959 0.055" rgba="0 0.83921575546264648 1 1"/>
+      <joint name="//unnamed_joint_3" class="/" type="free"/>
+    </body> -->
+    <!-- <body name="box_5" pos="0.1176221671824321 0.62210565296867215 0.35499999999999998">
+      <geom name="//unnamed_geom_12" class="/" type="box" group="1" size="0.055 0.067596402584312182 0.055" rgba="0.84313732385635376 0.26666668057441711 0 1"/>
+      <joint name="//unnamed_joint_4" class="/" type="free"/>
+    </body> -->
+    <!-- <body name="box_6" pos="-0.096236318603808046 -0.42142641007555215 0.35499999999999998">
+      <geom name="//unnamed_geom_13" class="/" type="box" group="1" size="0.057212627535643504 0.06839772732407734 0.055" rgba="0 0.50196081399917603 0.16078431904315948 1"/>
+      <joint name="//unnamed_joint_5" class="/" type="free"/>
+    </body> -->
+    <!-- <body name="box_7" pos="-0.16039386433968011 0.34115471291830413 0.35499999999999998">
+      <geom name="//unnamed_geom_14" class="/" type="box" group="1" size="0.055007578371876191 0.077499983147774329 0.055" rgba="0 0.37254902720451355 0.83529418706893921 1"/>
+      <joint name="//unnamed_joint_6" class="/" type="free"/>
+    </body> -->
+    <body name="virt_box_1" pos="0 -0.12243499223068688 0.35499999999999998">
+      <geom name="//unnamed_geom_15" class="/" type="box" contype="0" conaffinity="0" group="1" size="0.060657792055860901 0.055 0.055" rgba="0 0 0 0.29999999999999999"/>
+    </body>
+    <!-- <body name="virt_box_2" pos="0 1.3877787807814457e-17 0.35499999999999998">
+      <geom name="//unnamed_geom_16" class="/" type="box" contype="0" conaffinity="0" group="1" size="0.076178097189418481 0.067434992230686885 0.055" rgba="1 1 0.38431376218795776 0.29999999999999999"/>
+    </body> -->
+    <!-- <body name="virt_box_3" pos="0 0.12243499223068691 0.35499999999999998">
+      <geom name="//unnamed_geom_17" class="/" type="box" contype="0" conaffinity="0" group="1" size="0.060027579686085103 0.055 0.055" rgba="1 0.62352943420410156 1 0.29999999999999999"/>
+    </body> -->
+  </worldbody>
+
+  <actuator>
+    <motor name="herb/wam_1/j1_base_yaw_joint" joint="herb/wam_1/j1_base_yaw_joint" gear="100" ctrlrange="-1 1" ctrllimited="true"/>
+    <motor name="herb/wam_1/j2_shoulder_pitch_joint" joint="herb/wam_1/j2_shoulder_pitch_joint" gear="100" ctrlrange="-1 1" ctrllimited="true"/>
+    <motor name="herb/wam_1/j3_shoulder_yaw_joint" joint="herb/wam_1/j3_shoulder_yaw_joint" gear="100" ctrlrange="-1 1" ctrllimited="true"/>
+    <motor name="herb/wam_1/j4_elbow_pitch_joint" joint="herb/wam_1/j4_elbow_pitch_joint" gear="100" ctrlrange="-1 1" ctrllimited="true"/>
+    <motor name="herb/wam_1/j5_wrist_yaw_joint" joint="herb/wam_1/j5_wrist_yaw_joint" gear="100" ctrlrange="-1 1" ctrllimited="true"/>
+    <motor name="herb/wam_1/j6_wrist_pitch_joint" joint="herb/wam_1/j6_wrist_pitch_joint" gear="100" ctrlrange="-1 1" ctrllimited="true"/>
+  </actuator>
+
+</mujoco>

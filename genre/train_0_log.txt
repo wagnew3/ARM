@@ -1,0 +1,33 @@
+pybullet build time: Sep  8 2019 12:21:42
+[94m==>[0m Parsing arguments
+Namespace(adam_beta1=0.5, adam_beta2=0.9, batch_size=16, classes='chair', dataset='shapenet_table_norm', dataset_root='/media/willie/fda8d90f-998c-425a-9823-a20479be9e98/data/tabletop_dataset_with_poses/', epoch=50, epoch_batches=1000, eval_at_start=False, eval_batches=200, expr_id=0, gpu='1', inpaint_path=None, joint_train=True, load_offline=False, log_batch=False, log_time=False, logdir='/home/willie/workspace/GenRe-ShapeHD/logs', lr=0.00015000000000000001, manual_seed=1, net='genre_given_depth', net1_path=None, optim='adam', padding_margin=16, pred_depth_minmax=True, resume=0, save_net=1, save_net_opt=False, sgd_dampening=0, sgd_momentum=0.9, shapenet_root='/media/willie/fda8d90f-998c-425a-9823-a20479be9e98/data/', suffix='1', surface_weight=1.0, tensorboard=False, vis_batches_train=10, vis_batches_vali=10, vis_every_train=1, vis_every_vali=1, vis_param_f=None, vis_workers=1, wdecay=0.0, workers=0)
+[94m==>[0m Setting device
+[94m==>[0m Setting up logging directory
+[92m[Verbose][0m Logging directory set to: /home/willie/workspace/genre/genre/logs/genre_full_model_shapenet_stab_loss/1
+[94m==>[0m Setting up loggers
+[93m[Warning][0m Previous best eval loss not given. Best validation model WILL be overwritten.
+[94m==>[0m Setting up models
+Using 1 GPUs!
+Full model of GenRe. Jointly training all the modules.
+# model parameters: 69,431,561
+[94m==>[0m Setting up data loaders
+[92m[Verbose][0m Time spent in data IO initialization: 0.30s
+[92m[Verbose][0m # training points: 230
+[92m[Verbose][0m # training batches per epoch: 14
+[92m[Verbose][0m # test batches: 14
+[94m==>[0m Training
+Epoch 1/100
+steps_per_epoch 14
+train start
+train end
+average train loss: inf
+ 16/224 [=>............................] - ETA: 144s - loss: 1.6701 - spherical: 0.9664 - voxel_loss: 0.6984 - surface_loss: 0.0052train start
+train end
+average train loss: 3.332767128944397
+ 32/224 [===>..........................] - ETA: 116s - loss: 1.6664 - spherical: 0.9659 - voxel_loss: 0.6964 - surface_loss: 0.0040train start
+train end
+average train loss: 2.4457538723945618
+ 48/224 [=====>........................] - ETA: 101s - loss: 1.6305 - spherical: 0.9320 - voxel_loss: 0.6950 - surface_loss: 0.0035train start
+train end
+average train loss: 2.124049504597982
+ 64/224 [=======>......................] - ETA: 88s - loss: 1.5930 - spherical: 0.8957 - voxel_loss: 0.6939 - surface_loss: 0.0035 

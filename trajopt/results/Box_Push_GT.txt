@@ -1,0 +1,2229 @@
+pybullet build time: Sep  8 2019 12:21:42
+/home/willie/workspace/SSC/herb_reconf/scene.xml
+
+  0%|          | 0/1000 [00:00<?, ?it/s]using normal sol state!
+best_reward 0.5161890316974189
+Trajectory reward = 0.494800
+
+  0%|          | 1/1000 [00:16<4:26:56, 16.03s/it]using normal sol state!
+best_reward 0.528391840663774
+Trajectory reward = 0.494854
+
+  0%|          | 2/1000 [00:31<4:22:05, 15.76s/it]using normal sol state!
+best_reward 0.5466922799281599
+Trajectory reward = 0.494959
+
+  0%|          | 3/1000 [00:46<4:19:11, 15.60s/it]using normal sol state!
+best_reward 0.5793019998101157
+Trajectory reward = 0.495100
+
+  0%|          | 4/1000 [01:01<4:19:00, 15.60s/it]using normal sol state!
+best_reward 0.5590027424867503
+Trajectory reward = 0.495269
+
+  0%|          | 5/1000 [01:17<4:18:03, 15.56s/it]using normal sol state!
+best_reward 0.5600247469701157
+Trajectory reward = 0.495456
+
+  1%|          | 6/1000 [01:33<4:19:42, 15.68s/it]using normal sol state!
+best_reward 0.5318186904049653
+Trajectory reward = 0.499210
+
+  1%|          | 7/1000 [01:49<4:19:13, 15.66s/it]using normal sol state!
+best_reward 0.6170131729222537
+Trajectory reward = 0.505175
+
+  1%|          | 8/1000 [02:04<4:18:48, 15.65s/it]using normal sol state!
+best_reward 0.6560077610425658
+Trajectory reward = 0.510220
+
+  1%|          | 9/1000 [02:20<4:19:39, 15.72s/it]using normal sol state!
+best_reward 0.6161947245564718
+Trajectory reward = 0.514972
+
+  1%|          | 10/1000 [02:36<4:19:56, 15.75s/it]using normal sol state!
+best_reward 0.6453351719125917
+Trajectory reward = 0.518728
+
+  1%|          | 11/1000 [02:52<4:19:28, 15.74s/it]using normal sol state!
+best_reward 0.7198161908248107
+Trajectory reward = 0.523073
+
+  1%|          | 12/1000 [03:07<4:19:14, 15.74s/it]using normal sol state!
+best_reward 0.7187078396488817
+Trajectory reward = 0.530176
+
+  1%|▏         | 13/1000 [03:23<4:19:24, 15.77s/it]using normal sol state!
+best_reward 0.6941337219105147
+Trajectory reward = 0.537112
+
+  1%|▏         | 14/1000 [03:39<4:20:40, 15.86s/it]using normal sol state!
+best_reward 0.7041091403950427
+Trajectory reward = 0.544308
+
+  2%|▏         | 15/1000 [03:55<4:19:45, 15.82s/it]using normal sol state!
+best_reward 0.7066541662882853
+Trajectory reward = 0.554094
+
+  2%|▏         | 16/1000 [04:11<4:19:12, 15.81s/it]using normal sol state!
+best_reward 0.704539053447081
+Trajectory reward = 0.563261
+
+  2%|▏         | 17/1000 [04:26<4:17:35, 15.72s/it]using normal sol state!
+best_reward 0.7432095671599901
+Trajectory reward = 0.569116
+
+  2%|▏         | 18/1000 [04:42<4:16:07, 15.65s/it]using normal sol state!
+best_reward 0.7360308754495835
+Trajectory reward = 0.579030
+
+  2%|▏         | 19/1000 [04:57<4:14:47, 15.58s/it]using normal sol state!
+best_reward 0.7432158779890651
+Trajectory reward = 0.588485
+
+  2%|▏         | 20/1000 [05:13<4:14:25, 15.58s/it]using normal sol state!
+best_reward 0.7276086756296707
+Trajectory reward = 0.596624
+
+  2%|▏         | 21/1000 [05:28<4:13:27, 15.53s/it]using normal sol state!
+best_reward 0.7563870369402272
+Trajectory reward = 0.601270
+
+  2%|▏         | 22/1000 [05:44<4:13:30, 15.55s/it]using normal sol state!
+best_reward 0.7433149748408487
+Trajectory reward = 0.607728
+
+  2%|▏         | 23/1000 [05:59<4:13:56, 15.60s/it]using normal sol state!
+best_reward 0.7803844519463914
+Trajectory reward = 0.615660
+
+  2%|▏         | 24/1000 [06:15<4:12:43, 15.54s/it]using normal sol state!
+best_reward 0.7876089552282566
+Trajectory reward = 0.622130
+
+  2%|▎         | 25/1000 [06:30<4:12:25, 15.53s/it]using normal sol state!
+best_reward 0.7824876608939837
+Trajectory reward = 0.624364
+
+  3%|▎         | 26/1000 [06:46<4:12:14, 15.54s/it]using normal sol state!
+best_reward 0.7911190115206893
+Trajectory reward = 0.626753
+
+  3%|▎         | 27/1000 [07:02<4:12:34, 15.58s/it]using normal sol state!
+best_reward 0.7719843274549223
+Trajectory reward = 0.635888
+
+  3%|▎         | 28/1000 [07:18<4:14:08, 15.69s/it]using normal sol state!
+best_reward 0.759111553879543
+Trajectory reward = 0.650886
+
+  3%|▎         | 29/1000 [07:34<4:16:59, 15.88s/it]using normal sol state!
+best_reward 0.8039837080455292
+Trajectory reward = 0.664912
+
+  3%|▎         | 30/1000 [07:50<4:19:24, 16.05s/it]using normal sol state!
+best_reward 0.8043892379609316
+Trajectory reward = 0.676164
+
+  3%|▎         | 31/1000 [08:06<4:18:53, 16.03s/it]using normal sol state!
+best_reward 0.8393044374930276
+Trajectory reward = 0.684643
+
+  3%|▎         | 32/1000 [08:22<4:18:18, 16.01s/it]using normal sol state!
+best_reward 0.8333666009042657
+Trajectory reward = 0.691544
+
+  3%|▎         | 33/1000 [08:38<4:18:51, 16.06s/it]using normal sol state!
+best_reward 0.8471274975452635
+Trajectory reward = 0.699591
+
+  3%|▎         | 34/1000 [08:55<4:20:37, 16.19s/it]using normal sol state!
+best_reward 0.8330438746486788
+Trajectory reward = 0.707706
+
+  4%|▎         | 35/1000 [09:11<4:21:02, 16.23s/it]using normal sol state!
+best_reward 0.8659668252922263
+Trajectory reward = 0.716059
+
+  4%|▎         | 36/1000 [09:28<4:21:58, 16.31s/it]using normal sol state!
+best_reward 0.8569067860826317
+Trajectory reward = 0.726666
+
+  4%|▎         | 37/1000 [09:44<4:21:30, 16.29s/it]using normal sol state!
+best_reward 0.8431322846028352
+Trajectory reward = 0.736810
+
+  4%|▍         | 38/1000 [10:00<4:21:10, 16.29s/it]using normal sol state!
+best_reward 0.8636243254293017
+Trajectory reward = 0.743353
+
+  4%|▍         | 39/1000 [10:17<4:21:30, 16.33s/it]using normal sol state!
+best_reward 0.874568696567827
+Trajectory reward = 0.751648
+
+  4%|▍         | 40/1000 [10:33<4:22:26, 16.40s/it]using normal sol state!
+best_reward 0.8776388301296039
+Trajectory reward = 0.761304
+
+  4%|▍         | 41/1000 [10:50<4:23:40, 16.50s/it]using normal sol state!
+best_reward 0.8864929211040322
+Trajectory reward = 0.768643
+
+  4%|▍         | 42/1000 [11:07<4:25:52, 16.65s/it]using normal sol state!
+best_reward 0.8888274361813026
+Trajectory reward = 0.775800
+
+  4%|▍         | 43/1000 [11:24<4:26:27, 16.71s/it]using normal sol state!
+best_reward 0.9145468044825331
+Trajectory reward = 0.785123
+
+  4%|▍         | 44/1000 [11:41<4:26:22, 16.72s/it]using normal sol state!
+best_reward 0.9118639925924914
+Trajectory reward = 0.792351
+
+  4%|▍         | 45/1000 [11:57<4:26:53, 16.77s/it]using normal sol state!
+best_reward 0.9167244877152058
+Trajectory reward = 0.800817
+
+  5%|▍         | 46/1000 [12:15<4:27:55, 16.85s/it]using normal sol state!
+best_reward 0.9241376683264634
+Trajectory reward = 0.808892
+
+  5%|▍         | 47/1000 [12:31<4:28:11, 16.88s/it]using normal sol state!
+best_reward 0.9240235586102041
+Trajectory reward = 0.815860
+
+  5%|▍         | 48/1000 [12:49<4:28:55, 16.95s/it]using normal sol state!
+best_reward 0.9535475346247635
+Trajectory reward = 0.820808
+
+  5%|▍         | 49/1000 [13:06<4:29:59, 17.03s/it]using normal sol state!
+best_reward 0.9335917975075153
+Trajectory reward = 0.826327
+
+  5%|▌         | 50/1000 [13:23<4:30:43, 17.10s/it]using normal sol state!
+best_reward 0.9427567743922709
+Trajectory reward = 0.832608
+==============>>>>>>>>>>> saving progress 
+
+  5%|▌         | 51/1000 [13:40<4:30:20, 17.09s/it]using normal sol state!
+best_reward 0.9429497089497567
+Trajectory reward = 0.839450
+
+  5%|▌         | 52/1000 [13:58<4:32:18, 17.23s/it]using normal sol state!
+best_reward 0.963518295333148
+Trajectory reward = 0.845862
+
+  5%|▌         | 53/1000 [14:15<4:34:27, 17.39s/it]using normal sol state!
+best_reward 0.959467595786761
+Trajectory reward = 0.853133
+
+  5%|▌         | 54/1000 [14:33<4:33:49, 17.37s/it]using normal sol state!
+best_reward 0.9598448361223211
+Trajectory reward = 0.860170
+
+  6%|▌         | 55/1000 [14:50<4:31:37, 17.25s/it]using normal sol state!
+best_reward 0.950575681786855
+Trajectory reward = 0.867855
+
+  6%|▌         | 56/1000 [15:07<4:29:31, 17.13s/it]using normal sol state!
+best_reward 0.9636998734409897
+Trajectory reward = 0.876376
+
+  6%|▌         | 57/1000 [15:24<4:30:16, 17.20s/it]using normal sol state!
+best_reward 0.9789846282978755
+Trajectory reward = 0.887770
+
+  6%|▌         | 58/1000 [15:41<4:28:44, 17.12s/it]using normal sol state!
+best_reward 0.9773568335874461
+Trajectory reward = 0.896875
+
+  6%|▌         | 59/1000 [15:58<4:26:28, 16.99s/it]using normal sol state!
+best_reward 0.9655254407428768
+Trajectory reward = 0.903371
+
+  6%|▌         | 60/1000 [16:14<4:25:40, 16.96s/it]using normal sol state!
+best_reward 0.968775402452292
+Trajectory reward = 0.910031
+
+  6%|▌         | 61/1000 [16:31<4:25:11, 16.95s/it]using normal sol state!
+best_reward 0.9737762902923192
+Trajectory reward = 0.916976
+
+  6%|▌         | 62/1000 [16:49<4:26:33, 17.05s/it]using normal sol state!
+best_reward 0.9762444676076516
+Trajectory reward = 0.922513
+
+  6%|▋         | 63/1000 [17:06<4:28:21, 17.18s/it]using normal sol state!
+best_reward 0.9803741176098855
+Trajectory reward = 0.927630
+
+  6%|▋         | 64/1000 [17:24<4:30:34, 17.34s/it]using normal sol state!
+best_reward 0.9798929854383919
+Trajectory reward = 0.939471
+
+  6%|▋         | 65/1000 [17:41<4:28:53, 17.25s/it]using normal sol state!
+best_reward 0.9806017555352552
+Trajectory reward = 0.950408
+
+  7%|▋         | 66/1000 [17:58<4:27:09, 17.16s/it]using normal sol state!
+best_reward 0.9787698200423363
+Trajectory reward = 0.959276
+
+  7%|▋         | 67/1000 [18:15<4:26:49, 17.16s/it]using normal sol state!
+best_reward 0.9793676221964752
+Trajectory reward = 0.965893
+
+  7%|▋         | 68/1000 [18:32<4:26:19, 17.15s/it]using normal sol state!
+best_reward 0.9785474264590508
+Trajectory reward = 0.970076
+
+  7%|▋         | 69/1000 [18:49<4:26:30, 17.18s/it]using normal sol state!
+best_reward 0.9811346128643774
+Trajectory reward = 0.972323
+
+  7%|▋         | 70/1000 [19:07<4:26:24, 17.19s/it]using normal sol state!
+best_reward 0.9806386094852482
+Trajectory reward = 0.971739
+
+  7%|▋         | 71/1000 [19:24<4:26:29, 17.21s/it]using normal sol state!
+best_reward 0.9815551151041898
+Trajectory reward = 0.971082
+
+  7%|▋         | 72/1000 [19:41<4:27:27, 17.29s/it]using normal sol state!
+best_reward 0.9828750235973533
+Trajectory reward = 0.976808
+
+  7%|▋         | 73/1000 [19:59<4:27:39, 17.32s/it]using normal sol state!
+best_reward 0.9846646857060983
+Trajectory reward = 0.980456
+
+  7%|▋         | 74/1000 [20:16<4:27:05, 17.31s/it]using normal sol state!
+best_reward 0.9842112399102757
+Trajectory reward = 0.981800
+
+  8%|▊         | 75/1000 [20:33<4:26:54, 17.31s/it]using normal sol state!
+best_reward 0.9837171520774897
+Trajectory reward = 0.981981
+
+  8%|▊         | 76/1000 [20:51<4:26:47, 17.32s/it]using normal sol state!
+best_reward 0.9834047542098974
+Trajectory reward = 0.981875
+
+  8%|▊         | 77/1000 [21:08<4:26:18, 17.31s/it]using normal sol state!
+best_reward 0.9832143687994325
+Trajectory reward = 0.981782
+
+  8%|▊         | 78/1000 [21:25<4:25:57, 17.31s/it]using normal sol state!
+best_reward 0.9833273323331766
+Trajectory reward = 0.982937
+
+  8%|▊         | 79/1000 [21:43<4:25:37, 17.30s/it]using normal sol state!
+best_reward 0.9832022016222856
+Trajectory reward = 0.983310
+
+  8%|▊         | 80/1000 [22:00<4:25:41, 17.33s/it]using normal sol state!
+best_reward 0.9834657710729497
+Trajectory reward = 0.983292
+
+  8%|▊         | 81/1000 [22:17<4:25:44, 17.35s/it]using normal sol state!
+best_reward 0.9832472059983696
+Trajectory reward = 0.983237
+
+  8%|▊         | 82/1000 [22:35<4:25:39, 17.36s/it]using normal sol state!
+best_reward 0.9831557153618501
+Trajectory reward = 0.983192
+
+  8%|▊         | 83/1000 [22:52<4:26:40, 17.45s/it]using normal sol state!
+best_reward 0.9831438644406462
+Trajectory reward = 0.983154
+
+  8%|▊         | 84/1000 [23:10<4:26:13, 17.44s/it]using normal sol state!
+best_reward 0.98350052688789
+Trajectory reward = 0.983120
+
+  8%|▊         | 85/1000 [23:27<4:26:17, 17.46s/it]using normal sol state!
+best_reward 0.983190304618002
+Trajectory reward = 0.983114
+
+  9%|▊         | 86/1000 [23:45<4:25:38, 17.44s/it]using normal sol state!
+best_reward 0.9859349525672769
+Trajectory reward = 0.983093
+
+  9%|▊         | 87/1000 [24:02<4:25:27, 17.45s/it]using normal sol state!
+best_reward 0.9832695999938282
+Trajectory reward = 0.983325
+
+  9%|▉         | 88/1000 [24:20<4:27:18, 17.59s/it]using normal sol state!
+best_reward 0.9832814376391441
+Trajectory reward = 0.983320
+
+  9%|▉         | 89/1000 [24:38<4:27:27, 17.62s/it]using normal sol state!
+best_reward 0.9832739635059872
+Trajectory reward = 0.983295
+
+  9%|▉         | 90/1000 [24:55<4:27:37, 17.65s/it]using normal sol state!
+best_reward 0.9833555077844677
+Trajectory reward = 0.983271
+
+  9%|▉         | 91/1000 [25:13<4:26:16, 17.58s/it]using normal sol state!
+best_reward 0.9832546862428386
+Trajectory reward = 0.983252
+
+  9%|▉         | 92/1000 [25:31<4:26:24, 17.60s/it]using normal sol state!
+best_reward 0.9832599699033191
+Trajectory reward = 0.983237
+
+  9%|▉         | 93/1000 [25:48<4:26:54, 17.66s/it]using normal sol state!
+best_reward 0.983271736727236
+Trajectory reward = 0.983227
+
+  9%|▉         | 94/1000 [26:06<4:27:47, 17.73s/it]using normal sol state!
+best_reward 0.983340026120123
+Trajectory reward = 0.983220
+
+ 10%|▉         | 95/1000 [26:24<4:27:06, 17.71s/it]using normal sol state!
+best_reward 0.9832887560048439
+Trajectory reward = 0.983217
+
+ 10%|▉         | 96/1000 [26:42<4:26:23, 17.68s/it]using normal sol state!
+best_reward 0.9832890946042412
+Trajectory reward = 0.983215
+
+ 10%|▉         | 97/1000 [26:59<4:25:24, 17.64s/it]using normal sol state!
+best_reward 0.9832565828087749
+Trajectory reward = 0.983213
+
+ 10%|▉         | 98/1000 [27:17<4:24:25, 17.59s/it]using normal sol state!
+best_reward 0.9833796398606469
+Trajectory reward = 0.983210
+
+ 10%|▉         | 99/1000 [27:34<4:24:20, 17.60s/it]using normal sol state!
+best_reward 0.9832586314785867
+Trajectory reward = 0.983209
+
+ 10%|█         | 100/1000 [27:52<4:23:38, 17.58s/it]using normal sol state!
+best_reward 0.9832608522193063
+Trajectory reward = 0.983210
+==============>>>>>>>>>>> saving progress 
+
+ 10%|█         | 101/1000 [28:10<4:24:43, 17.67s/it]using normal sol state!
+best_reward 0.9832547322415695
+Trajectory reward = 0.983211
+
+ 10%|█         | 102/1000 [28:27<4:24:20, 17.66s/it]using normal sol state!
+best_reward 0.9832524070830861
+Trajectory reward = 0.983211
+
+ 10%|█         | 103/1000 [28:45<4:24:03, 17.66s/it]using normal sol state!
+best_reward 0.9832722976827557
+Trajectory reward = 0.983213
+
+ 10%|█         | 104/1000 [29:03<4:24:04, 17.68s/it]using normal sol state!
+best_reward 0.98337606159922
+Trajectory reward = 0.983216
+
+ 10%|█         | 105/1000 [29:21<4:24:53, 17.76s/it]using normal sol state!
+best_reward 0.9832574254883933
+Trajectory reward = 0.983217
+
+ 11%|█         | 106/1000 [29:39<4:26:02, 17.86s/it]using normal sol state!
+best_reward 0.983261028209734
+Trajectory reward = 0.983218
+
+ 11%|█         | 107/1000 [29:56<4:25:11, 17.82s/it]using normal sol state!
+best_reward 0.9832597772430643
+Trajectory reward = 0.983219
+
+ 11%|█         | 108/1000 [30:14<4:24:30, 17.79s/it]using normal sol state!
+best_reward 0.983298621762123
+Trajectory reward = 0.983220
+
+ 11%|█         | 109/1000 [30:32<4:24:23, 17.80s/it]using normal sol state!
+best_reward 0.9832660701818643
+Trajectory reward = 0.983221
+
+ 11%|█         | 110/1000 [30:50<4:23:50, 17.79s/it]using normal sol state!
+best_reward 0.9832537579461684
+Trajectory reward = 0.983223
+
+ 11%|█         | 111/1000 [31:07<4:23:13, 17.77s/it]using normal sol state!
+best_reward 0.9832968567749487
+Trajectory reward = 0.983224
+
+ 11%|█         | 112/1000 [31:26<4:25:26, 17.94s/it]using normal sol state!
+best_reward 0.9832689118659529
+Trajectory reward = 0.983225
+
+ 11%|█▏        | 113/1000 [31:44<4:26:54, 18.05s/it]using normal sol state!
+best_reward 0.9833769301677331
+Trajectory reward = 0.983227
+
+ 11%|█▏        | 114/1000 [32:02<4:27:41, 18.13s/it]using normal sol state!
+best_reward 0.983315998707688
+Trajectory reward = 0.983228
+
+ 12%|█▏        | 115/1000 [32:20<4:26:31, 18.07s/it]using normal sol state!
+best_reward 0.9834471933871742
+Trajectory reward = 0.983229
+
+ 12%|█▏        | 116/1000 [32:38<4:25:42, 18.03s/it]using normal sol state!
+best_reward 0.9832852877882059
+Trajectory reward = 0.983229
+
+ 12%|█▏        | 117/1000 [32:56<4:24:29, 17.97s/it]using normal sol state!
+best_reward 0.9833974744737616
+Trajectory reward = 0.983228
+
+ 12%|█▏        | 118/1000 [33:14<4:23:47, 17.95s/it]using normal sol state!
+best_reward 0.9833446905966692
+Trajectory reward = 0.983234
+
+ 12%|█▏        | 119/1000 [33:32<4:22:42, 17.89s/it]using normal sol state!
+best_reward 0.9833571128202198
+Trajectory reward = 0.983239
+
+ 12%|█▏        | 120/1000 [33:50<4:23:14, 17.95s/it]using normal sol state!
+best_reward 0.9833895188003589
+Trajectory reward = 0.983240
+
+ 12%|█▏        | 121/1000 [34:08<4:23:40, 18.00s/it]using normal sol state!
+best_reward 0.9834052221706283
+Trajectory reward = 0.983241
+
+ 12%|█▏        | 122/1000 [34:26<4:23:09, 17.98s/it]using normal sol state!
+best_reward 0.9834060220652551
+Trajectory reward = 0.983242
+
+ 12%|█▏        | 123/1000 [34:44<4:23:43, 18.04s/it]using normal sol state!
+best_reward 0.9835261662448025
+Trajectory reward = 0.983282
+
+ 12%|█▏        | 124/1000 [35:02<4:23:37, 18.06s/it]using normal sol state!
+best_reward 0.9835057544083476
+Trajectory reward = 0.983351
+
+ 12%|█▎        | 125/1000 [35:20<4:23:07, 18.04s/it]using normal sol state!
+best_reward 0.9835160253211519
+Trajectory reward = 0.983409
+
+ 13%|█▎        | 126/1000 [35:38<4:22:16, 18.00s/it]using normal sol state!
+best_reward 0.9834759593492128
+Trajectory reward = 0.983497
+
+ 13%|█▎        | 127/1000 [35:56<4:22:22, 18.03s/it]using normal sol state!
+best_reward 0.9836101982659344
+Trajectory reward = 0.983508
+
+ 13%|█▎        | 128/1000 [36:14<4:21:59, 18.03s/it]using normal sol state!
+best_reward 0.9835821625010153
+Trajectory reward = 0.983508
+
+ 13%|█▎        | 129/1000 [36:32<4:21:22, 18.00s/it]using normal sol state!
+best_reward 0.9835880701238295
+Trajectory reward = 0.983545
+
+ 13%|█▎        | 130/1000 [36:50<4:22:42, 18.12s/it]using normal sol state!
+best_reward 0.9835740789991267
+Trajectory reward = 0.983549
+
+ 13%|█▎        | 131/1000 [37:09<4:22:09, 18.10s/it]using normal sol state!
+best_reward 0.9835926255729326
+Trajectory reward = 0.983550
+
+ 13%|█▎        | 132/1000 [37:27<4:21:34, 18.08s/it]using normal sol state!
+best_reward 0.9835772190474982
+Trajectory reward = 0.983550
+
+ 13%|█▎        | 133/1000 [37:44<4:20:15, 18.01s/it]using normal sol state!
+best_reward 0.9836057017214105
+Trajectory reward = 0.983551
+
+ 13%|█▎        | 134/1000 [38:02<4:19:02, 17.95s/it]using normal sol state!
+best_reward 0.9835963248492763
+Trajectory reward = 0.983550
+
+ 14%|█▎        | 135/1000 [38:20<4:18:10, 17.91s/it]using normal sol state!
+best_reward 0.9835899384764929
+Trajectory reward = 0.983550
+
+ 14%|█▎        | 136/1000 [38:38<4:17:58, 17.92s/it]using normal sol state!
+best_reward 0.983645267831689
+Trajectory reward = 0.983550
+
+ 14%|█▎        | 137/1000 [38:56<4:18:36, 17.98s/it]using normal sol state!
+best_reward 0.983585008936256
+Trajectory reward = 0.983550
+
+ 14%|█▍        | 138/1000 [39:14<4:17:53, 17.95s/it]using normal sol state!
+best_reward 0.9836142808284462
+Trajectory reward = 0.983550
+
+ 14%|█▍        | 139/1000 [39:32<4:17:09, 17.92s/it]using normal sol state!
+best_reward 0.9835971569914328
+Trajectory reward = 0.983550
+
+ 14%|█▍        | 140/1000 [39:50<4:16:41, 17.91s/it]using normal sol state!
+best_reward 0.9835955944804351
+Trajectory reward = 0.983550
+
+ 14%|█▍        | 141/1000 [40:08<4:17:21, 17.98s/it]using normal sol state!
+best_reward 0.9835720393853249
+Trajectory reward = 0.983550
+
+ 14%|█▍        | 142/1000 [40:26<4:17:09, 17.98s/it]using normal sol state!
+best_reward 0.9835804450208694
+Trajectory reward = 0.983549
+
+ 14%|█▍        | 143/1000 [40:44<4:17:21, 18.02s/it]using normal sol state!
+best_reward 0.9836010132804444
+Trajectory reward = 0.983549
+
+ 14%|█▍        | 144/1000 [41:02<4:16:58, 18.01s/it]using normal sol state!
+best_reward 0.9835797322876613
+Trajectory reward = 0.983550
+
+ 14%|█▍        | 145/1000 [41:20<4:15:58, 17.96s/it]using normal sol state!
+best_reward 0.9836001616704114
+Trajectory reward = 0.983549
+
+ 15%|█▍        | 146/1000 [41:38<4:15:53, 17.98s/it]using normal sol state!
+best_reward 0.983578827613227
+Trajectory reward = 0.983549
+
+ 15%|█▍        | 147/1000 [41:56<4:16:32, 18.05s/it]using normal sol state!
+best_reward 0.9836090491814479
+Trajectory reward = 0.983549
+
+ 15%|█▍        | 148/1000 [42:14<4:15:19, 17.98s/it]using normal sol state!
+best_reward 0.9836100994547832
+Trajectory reward = 0.983550
+
+ 15%|█▍        | 149/1000 [42:32<4:14:40, 17.96s/it]using normal sol state!
+best_reward 0.9836854357298015
+Trajectory reward = 0.983550
+
+ 15%|█▌        | 150/1000 [42:50<4:13:46, 17.91s/it]using normal sol state!
+best_reward 0.9837247579505842
+Trajectory reward = 0.983550
+==============>>>>>>>>>>> saving progress 
+
+ 15%|█▌        | 151/1000 [43:07<4:13:28, 17.91s/it]using normal sol state!
+best_reward 0.9836733967585619
+Trajectory reward = 0.983549
+
+ 15%|█▌        | 152/1000 [43:25<4:12:59, 17.90s/it]using normal sol state!
+best_reward 0.9839680580921456
+Trajectory reward = 0.983551
+
+ 15%|█▌        | 153/1000 [43:43<4:12:45, 17.90s/it]using normal sol state!
+best_reward 0.9836416538661047
+Trajectory reward = 0.983552
+
+ 15%|█▌        | 154/1000 [44:01<4:12:37, 17.92s/it]using normal sol state!
+best_reward 0.984482478480518
+Trajectory reward = 0.983553
+
+ 16%|█▌        | 155/1000 [44:20<4:14:06, 18.04s/it]using normal sol state!
+best_reward 0.9843239935132605
+Trajectory reward = 0.983553
+
+ 16%|█▌        | 156/1000 [44:37<4:13:06, 17.99s/it]using normal sol state!
+best_reward 0.9846192139333874
+Trajectory reward = 0.983554
+
+ 16%|█▌        | 157/1000 [44:56<4:14:10, 18.09s/it]using normal sol state!
+best_reward 0.9836311093665099
+Trajectory reward = 0.983554
+
+ 16%|█▌        | 158/1000 [45:14<4:13:00, 18.03s/it]using normal sol state!
+best_reward 0.9836233493974375
+Trajectory reward = 0.983554
+
+ 16%|█▌        | 159/1000 [45:31<4:11:26, 17.94s/it]using normal sol state!
+best_reward 0.9848580638683053
+Trajectory reward = 0.983556
+
+ 16%|█▌        | 160/1000 [45:49<4:11:10, 17.94s/it]using normal sol state!
+best_reward 0.9838123612679976
+Trajectory reward = 0.983560
+
+ 16%|█▌        | 161/1000 [46:07<4:09:31, 17.84s/it]using normal sol state!
+best_reward 0.9845206676931543
+Trajectory reward = 0.983563
+
+ 16%|█▌        | 162/1000 [46:25<4:08:29, 17.79s/it]using normal sol state!
+best_reward 0.985229560477916
+Trajectory reward = 0.983566
+
+ 16%|█▋        | 163/1000 [46:42<4:07:34, 17.75s/it]using normal sol state!
+best_reward 0.9850968804380691
+Trajectory reward = 0.983565
+
+ 16%|█▋        | 164/1000 [47:00<4:07:42, 17.78s/it]using normal sol state!
+best_reward 0.9844825610120819
+Trajectory reward = 0.983567
+
+ 16%|█▋        | 165/1000 [47:18<4:06:56, 17.74s/it]using normal sol state!
+best_reward 0.9843936335709855
+Trajectory reward = 0.983568
+
+ 17%|█▋        | 166/1000 [47:36<4:07:46, 17.83s/it]using normal sol state!
+best_reward 0.9854565084071139
+Trajectory reward = 0.983564
+
+ 17%|█▋        | 167/1000 [47:53<4:06:48, 17.78s/it]using normal sol state!
+best_reward 0.9840892854413302
+Trajectory reward = 0.983556
+
+ 17%|█▋        | 168/1000 [48:11<4:06:11, 17.75s/it]using normal sol state!
+best_reward 0.9839412311985517
+Trajectory reward = 0.983562
+
+ 17%|█▋        | 169/1000 [48:29<4:05:26, 17.72s/it]using normal sol state!
+best_reward 0.9841172691616045
+Trajectory reward = 0.983582
+
+ 17%|█▋        | 170/1000 [48:47<4:05:32, 17.75s/it]using normal sol state!
+best_reward 0.9852594704780638
+Trajectory reward = 0.983606
+
+ 17%|█▋        | 171/1000 [49:04<4:04:58, 17.73s/it]using normal sol state!
+best_reward 0.9852483836308203
+Trajectory reward = 0.983625
+
+ 17%|█▋        | 172/1000 [49:22<4:05:54, 17.82s/it]using normal sol state!
+best_reward 0.9844839075512789
+Trajectory reward = 0.983639
+
+ 17%|█▋        | 173/1000 [49:40<4:06:42, 17.90s/it]using normal sol state!
+best_reward 0.9844657233152264
+Trajectory reward = 0.983643
+
+ 17%|█▋        | 174/1000 [49:59<4:07:43, 17.99s/it]using normal sol state!
+best_reward 0.9844810474180266
+Trajectory reward = 0.983647
+
+ 18%|█▊        | 175/1000 [50:17<4:07:58, 18.04s/it]using normal sol state!
+best_reward 0.9842480972342793
+Trajectory reward = 0.983649
+
+ 18%|█▊        | 176/1000 [50:35<4:08:04, 18.06s/it]using normal sol state!
+best_reward 0.9846501112757359
+Trajectory reward = 0.983653
+
+ 18%|█▊        | 177/1000 [50:53<4:09:21, 18.18s/it]using normal sol state!
+best_reward 0.9852301605072417
+Trajectory reward = 0.983658
+
+ 18%|█▊        | 178/1000 [51:12<4:10:27, 18.28s/it]using normal sol state!
+best_reward 0.9858131244548626
+Trajectory reward = 0.983658
+
+ 18%|█▊        | 179/1000 [51:31<4:12:24, 18.45s/it]using normal sol state!
+best_reward 0.9851881678778475
+Trajectory reward = 0.983660
+
+ 18%|█▊        | 180/1000 [51:49<4:11:42, 18.42s/it]using normal sol state!
+best_reward 0.98513375484905
+Trajectory reward = 0.983670
+
+ 18%|█▊        | 181/1000 [52:07<4:11:23, 18.42s/it]using normal sol state!
+best_reward 0.9855824926064017
+Trajectory reward = 0.983864
+
+ 18%|█▊        | 182/1000 [52:26<4:12:05, 18.49s/it]using normal sol state!
+best_reward 0.985300799608677
+Trajectory reward = 0.983917
+
+ 18%|█▊        | 183/1000 [52:45<4:11:49, 18.49s/it]using normal sol state!
+best_reward 0.9852640955622519
+Trajectory reward = 0.984127
+
+ 18%|█▊        | 184/1000 [53:03<4:11:36, 18.50s/it]using normal sol state!
+best_reward 0.9856442151715615
+Trajectory reward = 0.984217
+
+ 18%|█▊        | 185/1000 [53:22<4:11:46, 18.54s/it]using normal sol state!
+best_reward 0.9856925938119762
+Trajectory reward = 0.984199
+
+ 19%|█▊        | 186/1000 [53:40<4:11:10, 18.51s/it]using normal sol state!
+best_reward 0.985704971584012
+Trajectory reward = 0.984177
+
+ 19%|█▊        | 187/1000 [53:59<4:11:57, 18.59s/it]using normal sol state!
+best_reward 0.985586477148368
+Trajectory reward = 0.984154
+
+ 19%|█▉        | 188/1000 [54:18<4:11:40, 18.60s/it]using normal sol state!
+best_reward 0.9857216449015359
+Trajectory reward = 0.984144
+
+ 19%|█▉        | 189/1000 [54:36<4:10:33, 18.54s/it]using normal sol state!
+best_reward 0.9859537417854499
+Trajectory reward = 0.984160
+
+ 19%|█▉        | 190/1000 [54:55<4:10:50, 18.58s/it]using normal sol state!
+best_reward 0.9856541065505231
+Trajectory reward = 0.984175
+
+ 19%|█▉        | 191/1000 [55:14<4:12:00, 18.69s/it]using normal sol state!
+best_reward 0.985918333548174
+Trajectory reward = 0.984340
+
+ 19%|█▉        | 192/1000 [55:32<4:11:40, 18.69s/it]using normal sol state!
+best_reward 0.9860587517003169
+Trajectory reward = 0.984918
+
+ 19%|█▉        | 193/1000 [55:51<4:12:09, 18.75s/it]using normal sol state!
+best_reward 0.9860553383290044
+Trajectory reward = 0.985331
+
+ 19%|█▉        | 194/1000 [56:10<4:10:21, 18.64s/it]using normal sol state!
+best_reward 0.985900038015879
+Trajectory reward = 0.985750
+
+ 20%|█▉        | 195/1000 [56:28<4:08:57, 18.56s/it]using normal sol state!
+best_reward 0.9859765026310999
+Trajectory reward = 0.985762
+
+ 20%|█▉        | 196/1000 [56:46<4:07:34, 18.48s/it]using normal sol state!
+best_reward 0.9858959824910486
+Trajectory reward = 0.985816
+
+ 20%|█▉        | 197/1000 [57:04<4:05:39, 18.36s/it]using normal sol state!
+best_reward 0.9859555270269353
+Trajectory reward = 0.985924
+
+ 20%|█▉        | 198/1000 [57:22<4:04:27, 18.29s/it]using normal sol state!
+best_reward 0.9859557071404177
+Trajectory reward = 0.985920
+
+ 20%|█▉        | 199/1000 [57:40<4:03:00, 18.20s/it]using normal sol state!
+best_reward 0.9860781108123851
+Trajectory reward = 0.985915
+
+ 20%|██        | 200/1000 [57:58<4:01:16, 18.10s/it]using normal sol state!
+best_reward 0.985998375439703
+Trajectory reward = 0.985902
+==============>>>>>>>>>>> saving progress 
+
+ 20%|██        | 201/1000 [58:16<4:00:38, 18.07s/it]using normal sol state!
+best_reward 0.9860400657831698
+Trajectory reward = 0.985893
+
+ 20%|██        | 202/1000 [58:35<4:01:35, 18.17s/it]using normal sol state!
+best_reward 0.9859647598977472
+Trajectory reward = 0.985883
+
+ 20%|██        | 203/1000 [58:53<4:00:57, 18.14s/it]using normal sol state!
+best_reward 0.9860815684562031
+Trajectory reward = 0.985876
+
+ 20%|██        | 204/1000 [59:11<3:59:37, 18.06s/it]using normal sol state!
+best_reward 0.985966590303626
+Trajectory reward = 0.985872
+
+ 20%|██        | 205/1000 [59:29<3:58:56, 18.03s/it]using normal sol state!
+best_reward 0.9860076688618514
+Trajectory reward = 0.985868
+
+ 21%|██        | 206/1000 [59:47<3:58:42, 18.04s/it]using normal sol state!
+best_reward 0.9859691698294396
+Trajectory reward = 0.985867
+
+ 21%|██        | 207/1000 [1:00:05<3:58:03, 18.01s/it]using normal sol state!
+best_reward 0.9859690660876755
+Trajectory reward = 0.985866
+
+ 21%|██        | 208/1000 [1:00:22<3:56:46, 17.94s/it]using normal sol state!
+best_reward 0.986079773607783
+Trajectory reward = 0.985865
+
+ 21%|██        | 209/1000 [1:00:40<3:55:47, 17.89s/it]using normal sol state!
+best_reward 0.9859681738506907
+Trajectory reward = 0.985864
+
+ 21%|██        | 210/1000 [1:00:58<3:56:04, 17.93s/it]using normal sol state!
+best_reward 0.9860921950324743
+Trajectory reward = 0.985863
+
+ 21%|██        | 211/1000 [1:01:16<3:55:28, 17.91s/it]using normal sol state!
+best_reward 0.9860587302312954
+Trajectory reward = 0.985863
+
+ 21%|██        | 212/1000 [1:01:34<3:54:20, 17.84s/it]using normal sol state!
+best_reward 0.9859584920392999
+Trajectory reward = 0.985865
+
+ 21%|██▏       | 213/1000 [1:01:51<3:53:36, 17.81s/it]using normal sol state!
+best_reward 0.9860390085834992
+Trajectory reward = 0.985865
+
+ 21%|██▏       | 214/1000 [1:02:09<3:53:19, 17.81s/it]using normal sol state!
+best_reward 0.9861660970677353
+Trajectory reward = 0.985866
+
+ 22%|██▏       | 215/1000 [1:02:27<3:53:18, 17.83s/it]using normal sol state!
+best_reward 0.9859589052862116
+Trajectory reward = 0.985868
+
+ 22%|██▏       | 216/1000 [1:02:45<3:52:52, 17.82s/it]using normal sol state!
+best_reward 0.9859627429852982
+Trajectory reward = 0.985869
+
+ 22%|██▏       | 217/1000 [1:03:03<3:52:29, 17.82s/it]using normal sol state!
+best_reward 0.9859666206911513
+Trajectory reward = 0.985869
+
+ 22%|██▏       | 218/1000 [1:03:21<3:54:20, 17.98s/it]using normal sol state!
+best_reward 0.9859462458604632
+Trajectory reward = 0.985870
+
+ 22%|██▏       | 219/1000 [1:03:39<3:54:26, 18.01s/it]using normal sol state!
+best_reward 0.9860887210459413
+Trajectory reward = 0.985871
+
+ 22%|██▏       | 220/1000 [1:03:58<3:55:23, 18.11s/it]using normal sol state!
+best_reward 0.9859407485784257
+Trajectory reward = 0.985872
+
+ 22%|██▏       | 221/1000 [1:04:16<3:56:45, 18.24s/it]using normal sol state!
+best_reward 0.9859579914391897
+Trajectory reward = 0.985873
+
+ 22%|██▏       | 222/1000 [1:04:34<3:55:32, 18.16s/it]using normal sol state!
+best_reward 0.9860078383575348
+Trajectory reward = 0.985876
+
+ 22%|██▏       | 223/1000 [1:04:52<3:54:34, 18.11s/it]using normal sol state!
+best_reward 0.9861481594185596
+Trajectory reward = 0.985878
+
+ 22%|██▏       | 224/1000 [1:05:10<3:53:06, 18.02s/it]using normal sol state!
+best_reward 0.9859555801963719
+Trajectory reward = 0.985882
+
+ 22%|██▎       | 225/1000 [1:05:28<3:52:27, 18.00s/it]using normal sol state!
+best_reward 0.9864307732066856
+Trajectory reward = 0.985887
+
+ 23%|██▎       | 226/1000 [1:05:46<3:51:23, 17.94s/it]using normal sol state!
+best_reward 0.9862504033529855
+Trajectory reward = 0.985890
+
+ 23%|██▎       | 227/1000 [1:06:04<3:51:58, 18.01s/it]using normal sol state!
+best_reward 0.9861053272278656
+Trajectory reward = 0.985892
+
+ 23%|██▎       | 228/1000 [1:06:22<3:51:46, 18.01s/it]using normal sol state!
+best_reward 0.9859474424050277
+Trajectory reward = 0.985894
+
+ 23%|██▎       | 229/1000 [1:06:40<3:51:13, 17.99s/it]using normal sol state!
+best_reward 0.9861549841806999
+Trajectory reward = 0.985896
+
+ 23%|██▎       | 230/1000 [1:06:58<3:50:56, 18.00s/it]using normal sol state!
+best_reward 0.986129960242286
+Trajectory reward = 0.985900
+
+ 23%|██▎       | 231/1000 [1:07:16<3:51:25, 18.06s/it]using normal sol state!
+best_reward 0.9859417444746161
+Trajectory reward = 0.985901
+
+ 23%|██▎       | 232/1000 [1:07:34<3:51:39, 18.10s/it]using normal sol state!
+best_reward 0.9859407044072115
+Trajectory reward = 0.985900
+
+ 23%|██▎       | 233/1000 [1:07:52<3:51:03, 18.07s/it]using normal sol state!
+best_reward 0.9873077370249127
+Trajectory reward = 0.985906
+
+ 23%|██▎       | 234/1000 [1:08:10<3:50:16, 18.04s/it]using normal sol state!
+best_reward 0.9859754238293014
+Trajectory reward = 0.985912
+
+ 24%|██▎       | 235/1000 [1:08:28<3:49:29, 18.00s/it]using normal sol state!
+best_reward 0.9859430899431678
+Trajectory reward = 0.985913
+
+ 24%|██▎       | 236/1000 [1:08:46<3:48:52, 17.97s/it]using normal sol state!
+best_reward 0.9859738484661444
+Trajectory reward = 0.985905
+
+ 24%|██▎       | 237/1000 [1:09:04<3:48:25, 17.96s/it]using normal sol state!
+best_reward 0.9866676011128794
+Trajectory reward = 0.985909
+
+ 24%|██▍       | 238/1000 [1:09:22<3:47:14, 17.89s/it]using normal sol state!
+best_reward 0.9884826976914395
+Trajectory reward = 0.986540
+
+ 24%|██▍       | 239/1000 [1:09:39<3:46:15, 17.84s/it]using normal sol state!
+best_reward 0.9892114658591233
+Trajectory reward = 0.987267
+
+ 24%|██▍       | 240/1000 [1:09:57<3:45:45, 17.82s/it]using normal sol state!
+best_reward 0.9897841853715023
+Trajectory reward = 0.988073
+
+ 24%|██▍       | 241/1000 [1:10:15<3:44:58, 17.78s/it]using normal sol state!
+best_reward 0.9896465054330731
+Trajectory reward = 0.988186
+
+ 24%|██▍       | 242/1000 [1:10:32<3:44:17, 17.75s/it]using normal sol state!
+best_reward 0.9889180609105235
+Trajectory reward = 0.988284
+
+ 24%|██▍       | 243/1000 [1:10:50<3:44:06, 17.76s/it]using normal sol state!
+best_reward 0.9897202031531834
+Trajectory reward = 0.988359
+
+ 24%|██▍       | 244/1000 [1:11:08<3:43:56, 17.77s/it]using normal sol state!
+best_reward 0.9900422850757191
+Trajectory reward = 0.988402
+
+ 24%|██▍       | 245/1000 [1:11:26<3:43:10, 17.74s/it]using normal sol state!
+best_reward 0.9894803990752954
+Trajectory reward = 0.988790
+
+ 25%|██▍       | 246/1000 [1:11:43<3:42:25, 17.70s/it]using normal sol state!
+best_reward 0.9899772215757239
+Trajectory reward = 0.989615
+
+ 25%|██▍       | 247/1000 [1:12:01<3:41:41, 17.66s/it]using normal sol state!
+best_reward 0.9902390571836671
+Trajectory reward = 0.989981
+
+ 25%|██▍       | 248/1000 [1:12:18<3:41:00, 17.63s/it]using normal sol state!
+best_reward 0.9902002959413329
+Trajectory reward = 0.989987
+
+ 25%|██▍       | 249/1000 [1:12:36<3:39:54, 17.57s/it]using normal sol state!
+best_reward 0.9902311657258656
+Trajectory reward = 0.989997
+
+ 25%|██▌       | 250/1000 [1:12:53<3:39:20, 17.55s/it]using normal sol state!
+best_reward 0.9902361823962869
+Trajectory reward = 0.990012
+==============>>>>>>>>>>> saving progress 
+
+ 25%|██▌       | 251/1000 [1:13:11<3:40:22, 17.65s/it]using normal sol state!
+best_reward 0.9901968391791506
+Trajectory reward = 0.990030
+
+ 25%|██▌       | 252/1000 [1:13:29<3:39:41, 17.62s/it]using normal sol state!
+best_reward 0.9901373816584136
+Trajectory reward = 0.990045
+
+ 25%|██▌       | 253/1000 [1:13:46<3:38:32, 17.55s/it]using normal sol state!
+best_reward 0.9901411988466786
+Trajectory reward = 0.990058
+
+ 25%|██▌       | 254/1000 [1:14:04<3:37:33, 17.50s/it]using normal sol state!
+best_reward 0.9902012954806143
+Trajectory reward = 0.990069
+
+ 26%|██▌       | 255/1000 [1:14:21<3:38:34, 17.60s/it]using normal sol state!
+best_reward 0.9901932605285748
+Trajectory reward = 0.990078
+
+ 26%|██▌       | 256/1000 [1:14:39<3:37:31, 17.54s/it]using normal sol state!
+best_reward 0.990193625220329
+Trajectory reward = 0.990085
+
+ 26%|██▌       | 257/1000 [1:14:56<3:36:33, 17.49s/it]using normal sol state!
+best_reward 0.9902060460953799
+Trajectory reward = 0.990091
+
+ 26%|██▌       | 258/1000 [1:15:14<3:35:56, 17.46s/it]using normal sol state!
+best_reward 0.9902453903068056
+Trajectory reward = 0.990096
+
+ 26%|██▌       | 259/1000 [1:15:32<3:37:56, 17.65s/it]using normal sol state!
+best_reward 0.9902226868423458
+Trajectory reward = 0.990101
+
+ 26%|██▌       | 260/1000 [1:15:49<3:36:58, 17.59s/it]using normal sol state!
+best_reward 0.9902207399519922
+Trajectory reward = 0.990104
+
+ 26%|██▌       | 261/1000 [1:16:07<3:36:31, 17.58s/it]using normal sol state!
+best_reward 0.9902289667854688
+Trajectory reward = 0.990108
+
+ 26%|██▌       | 262/1000 [1:16:25<3:37:05, 17.65s/it]using normal sol state!
+best_reward 0.9902276926066483
+Trajectory reward = 0.990110
+
+ 26%|██▋       | 263/1000 [1:16:42<3:36:15, 17.61s/it]using normal sol state!
+best_reward 0.9902280116795248
+Trajectory reward = 0.990111
+
+ 26%|██▋       | 264/1000 [1:17:00<3:35:40, 17.58s/it]using normal sol state!
+best_reward 0.9902308772571947
+Trajectory reward = 0.990114
+
+ 26%|██▋       | 265/1000 [1:17:17<3:35:23, 17.58s/it]using normal sol state!
+best_reward 0.9902358781365753
+Trajectory reward = 0.990116
+
+ 27%|██▋       | 266/1000 [1:17:35<3:37:02, 17.74s/it]using normal sol state!
+best_reward 0.9902302949240187
+Trajectory reward = 0.990118
+
+ 27%|██▋       | 267/1000 [1:17:53<3:37:05, 17.77s/it]using normal sol state!
+best_reward 0.9902298752066983
+Trajectory reward = 0.990121
+
+ 27%|██▋       | 268/1000 [1:18:11<3:35:57, 17.70s/it]using normal sol state!
+best_reward 0.9902250399603638
+Trajectory reward = 0.990122
+
+ 27%|██▋       | 269/1000 [1:18:28<3:35:39, 17.70s/it]using normal sol state!
+best_reward 0.9902271983053802
+Trajectory reward = 0.990124
+
+ 27%|██▋       | 270/1000 [1:18:46<3:35:03, 17.68s/it]using normal sol state!
+best_reward 0.9902333405044559
+Trajectory reward = 0.990125
+
+ 27%|██▋       | 271/1000 [1:19:04<3:34:32, 17.66s/it]using normal sol state!
+best_reward 0.9903036591486195
+Trajectory reward = 0.990126
+
+ 27%|██▋       | 272/1000 [1:19:21<3:33:57, 17.63s/it]using normal sol state!
+best_reward 0.9902271674968228
+Trajectory reward = 0.990129
+
+ 27%|██▋       | 273/1000 [1:19:39<3:33:14, 17.60s/it]using normal sol state!
+best_reward 0.9902355529636676
+Trajectory reward = 0.990131
+
+ 27%|██▋       | 274/1000 [1:19:56<3:33:11, 17.62s/it]using normal sol state!
+best_reward 0.9904861981918458
+Trajectory reward = 0.990131
+
+ 28%|██▊       | 275/1000 [1:20:14<3:32:42, 17.60s/it]using normal sol state!
+best_reward 0.9917530659885675
+Trajectory reward = 0.990136
+
+ 28%|██▊       | 276/1000 [1:20:32<3:32:34, 17.62s/it]using normal sol state!
+best_reward 0.9905027867008243
+Trajectory reward = 0.990023
+
+ 28%|██▊       | 277/1000 [1:20:49<3:32:09, 17.61s/it]using normal sol state!
+best_reward 0.992988307506567
+Trajectory reward = 0.991391
+
+ 28%|██▊       | 278/1000 [1:21:07<3:32:07, 17.63s/it]using normal sol state!
+best_reward 0.993281765384796
+Trajectory reward = 0.992610
+
+ 28%|██▊       | 279/1000 [1:21:25<3:32:59, 17.72s/it]using normal sol state!
+best_reward 0.9931182983701091
+Trajectory reward = 0.993099
+
+ 28%|██▊       | 280/1000 [1:21:42<3:32:36, 17.72s/it]using normal sol state!
+best_reward 0.9933120143382003
+Trajectory reward = 0.992380
+
+ 28%|██▊       | 281/1000 [1:22:00<3:32:28, 17.73s/it]using normal sol state!
+best_reward 0.9935018941747075
+Trajectory reward = 0.992464
+
+ 28%|██▊       | 282/1000 [1:22:18<3:31:31, 17.68s/it]using normal sol state!
+best_reward 0.9932250659875002
+Trajectory reward = 0.992634
+
+ 28%|██▊       | 283/1000 [1:22:35<3:31:15, 17.68s/it]using normal sol state!
+best_reward 0.9931704292250829
+Trajectory reward = 0.992767
+
+ 28%|██▊       | 284/1000 [1:22:53<3:30:18, 17.62s/it]using normal sol state!
+best_reward 0.9934007652299447
+Trajectory reward = 0.992852
+
+ 28%|██▊       | 285/1000 [1:23:11<3:30:53, 17.70s/it]using normal sol state!
+best_reward 0.9940512547465535
+Trajectory reward = 0.992902
+
+ 29%|██▊       | 286/1000 [1:23:28<3:30:25, 17.68s/it]using normal sol state!
+best_reward 0.9936724328789805
+Trajectory reward = 0.993148
+
+ 29%|██▊       | 287/1000 [1:23:47<3:31:33, 17.80s/it]using normal sol state!
+best_reward 0.9938976764679736
+Trajectory reward = 0.993697
+
+ 29%|██▉       | 288/1000 [1:24:04<3:31:17, 17.81s/it]using normal sol state!
+best_reward 0.9939361528559856
+Trajectory reward = 0.993963
+
+ 29%|██▉       | 289/1000 [1:24:22<3:29:22, 17.67s/it]using normal sol state!
+best_reward 0.9939796879804252
+Trajectory reward = 0.993956
+
+ 29%|██▉       | 290/1000 [1:24:39<3:28:53, 17.65s/it]using normal sol state!
+best_reward 0.9938893581656825
+Trajectory reward = 0.993934
+
+ 29%|██▉       | 291/1000 [1:24:57<3:27:52, 17.59s/it]using normal sol state!
+best_reward 0.9939813604929182
+Trajectory reward = 0.993910
+
+ 29%|██▉       | 292/1000 [1:25:14<3:27:50, 17.61s/it]using normal sol state!
+best_reward 0.9939397804752654
+Trajectory reward = 0.993897
+
+ 29%|██▉       | 293/1000 [1:25:32<3:26:43, 17.54s/it]using normal sol state!
+best_reward 0.9938987426035815
+Trajectory reward = 0.993885
+
+ 29%|██▉       | 294/1000 [1:25:49<3:26:55, 17.59s/it]using normal sol state!
+best_reward 0.9939604255957069
+Trajectory reward = 0.993876
+
+ 30%|██▉       | 295/1000 [1:26:07<3:27:16, 17.64s/it]using normal sol state!
+best_reward 0.9939511481355798
+Trajectory reward = 0.993868
+
+ 30%|██▉       | 296/1000 [1:26:25<3:26:31, 17.60s/it]using normal sol state!
+best_reward 0.993957134228729
+Trajectory reward = 0.993864
+
+ 30%|██▉       | 297/1000 [1:26:42<3:26:34, 17.63s/it]using normal sol state!
+best_reward 0.9939803496049527
+Trajectory reward = 0.993862
+
+ 30%|██▉       | 298/1000 [1:27:01<3:28:09, 17.79s/it]using normal sol state!
+best_reward 0.9939700886624736
+Trajectory reward = 0.993861
+
+ 30%|██▉       | 299/1000 [1:27:18<3:27:17, 17.74s/it]using normal sol state!
+best_reward 0.9939795050631373
+Trajectory reward = 0.993860
+
+ 30%|███       | 300/1000 [1:27:36<3:26:26, 17.69s/it]using normal sol state!
+best_reward 0.9939776133599177
+Trajectory reward = 0.993859
+==============>>>>>>>>>>> saving progress 
+
+ 30%|███       | 301/1000 [1:27:53<3:25:52, 17.67s/it]using normal sol state!
+best_reward 0.9939737447061757
+Trajectory reward = 0.993860
+
+ 30%|███       | 302/1000 [1:28:11<3:25:12, 17.64s/it]using normal sol state!
+best_reward 0.9939885217605995
+Trajectory reward = 0.993860
+
+ 30%|███       | 303/1000 [1:28:29<3:24:46, 17.63s/it]using normal sol state!
+best_reward 0.9939772508158761
+Trajectory reward = 0.993861
+
+ 30%|███       | 304/1000 [1:28:46<3:24:53, 17.66s/it]using normal sol state!
+best_reward 0.9939781819924552
+Trajectory reward = 0.993861
+
+ 30%|███       | 305/1000 [1:29:04<3:25:11, 17.71s/it]using normal sol state!
+best_reward 0.9939793924735923
+Trajectory reward = 0.993863
+
+ 31%|███       | 306/1000 [1:29:22<3:25:32, 17.77s/it]using normal sol state!
+best_reward 0.9939763095459787
+Trajectory reward = 0.993865
+
+ 31%|███       | 307/1000 [1:29:40<3:24:41, 17.72s/it]using normal sol state!
+best_reward 0.9939831965515915
+Trajectory reward = 0.993866
+
+ 31%|███       | 308/1000 [1:29:57<3:24:12, 17.71s/it]using normal sol state!
+best_reward 0.9939772720763235
+Trajectory reward = 0.993868
+
+ 31%|███       | 309/1000 [1:30:15<3:23:36, 17.68s/it]using normal sol state!
+best_reward 0.9939850195476213
+Trajectory reward = 0.993871
+
+ 31%|███       | 310/1000 [1:30:33<3:24:55, 17.82s/it]using normal sol state!
+best_reward 0.9939781451657275
+Trajectory reward = 0.993873
+
+ 31%|███       | 311/1000 [1:30:51<3:24:47, 17.83s/it]using normal sol state!
+best_reward 0.9939851600869422
+Trajectory reward = 0.993875
+
+ 31%|███       | 312/1000 [1:31:09<3:24:01, 17.79s/it]using normal sol state!
+best_reward 0.9939857558111492
+Trajectory reward = 0.993878
+
+ 31%|███▏      | 313/1000 [1:31:26<3:23:28, 17.77s/it]using normal sol state!
+best_reward 0.9940630937971227
+Trajectory reward = 0.993881
+
+ 31%|███▏      | 314/1000 [1:31:44<3:23:08, 17.77s/it]using normal sol state!
+best_reward 0.9939809802620698
+Trajectory reward = 0.993883
+
+ 32%|███▏      | 315/1000 [1:32:02<3:24:33, 17.92s/it]using normal sol state!
+best_reward 0.9939779537430117
+Trajectory reward = 0.993885
+
+ 32%|███▏      | 316/1000 [1:32:20<3:24:01, 17.90s/it]using normal sol state!
+best_reward 0.9939824857342132
+Trajectory reward = 0.993887
+
+ 32%|███▏      | 317/1000 [1:32:38<3:22:35, 17.80s/it]using normal sol state!
+best_reward 0.9939858043947024
+Trajectory reward = 0.993889
+
+ 32%|███▏      | 318/1000 [1:32:55<3:21:43, 17.75s/it]using normal sol state!
+best_reward 0.9939822897196398
+Trajectory reward = 0.993891
+
+ 32%|███▏      | 319/1000 [1:33:13<3:20:25, 17.66s/it]using normal sol state!
+best_reward 0.9939892764883252
+Trajectory reward = 0.993893
+
+ 32%|███▏      | 320/1000 [1:33:30<3:19:37, 17.61s/it]using normal sol state!
+best_reward 0.9939821829588752
+Trajectory reward = 0.993895
+
+ 32%|███▏      | 321/1000 [1:33:48<3:18:53, 17.58s/it]using normal sol state!
+best_reward 0.9939929509069775
+Trajectory reward = 0.993898
+
+ 32%|███▏      | 322/1000 [1:34:05<3:18:16, 17.55s/it]using normal sol state!
+best_reward 0.9939775567101795
+Trajectory reward = 0.993900
+
+ 32%|███▏      | 323/1000 [1:34:23<3:19:41, 17.70s/it]using normal sol state!
+best_reward 0.9939852345831657
+Trajectory reward = 0.993901
+
+ 32%|███▏      | 324/1000 [1:34:41<3:19:37, 17.72s/it]using normal sol state!
+best_reward 0.9939904152118686
+Trajectory reward = 0.993902
+
+ 32%|███▎      | 325/1000 [1:34:59<3:18:48, 17.67s/it]using normal sol state!
+best_reward 0.9939827137161555
+Trajectory reward = 0.993904
+
+ 33%|███▎      | 326/1000 [1:35:17<3:19:13, 17.73s/it]using normal sol state!
+best_reward 0.9939877142260659
+Trajectory reward = 0.993906
+
+ 33%|███▎      | 327/1000 [1:35:34<3:19:05, 17.75s/it]using normal sol state!
+best_reward 0.9939870200480316
+Trajectory reward = 0.993908
+
+ 33%|███▎      | 328/1000 [1:35:52<3:18:50, 17.75s/it]using normal sol state!
+best_reward 0.993985686074105
+Trajectory reward = 0.993910
+
+ 33%|███▎      | 329/1000 [1:36:10<3:18:25, 17.74s/it]using normal sol state!
+best_reward 0.993983929563124
+Trajectory reward = 0.993912
+
+ 33%|███▎      | 330/1000 [1:36:28<3:17:55, 17.72s/it]using normal sol state!
+best_reward 0.9939834687367627
+Trajectory reward = 0.993914
+
+ 33%|███▎      | 331/1000 [1:36:45<3:17:12, 17.69s/it]using normal sol state!
+best_reward 0.9939925216389964
+Trajectory reward = 0.993915
+
+ 33%|███▎      | 332/1000 [1:37:03<3:17:27, 17.74s/it]using normal sol state!
+best_reward 0.9939890152113902
+Trajectory reward = 0.993916
+
+ 33%|███▎      | 333/1000 [1:37:21<3:17:25, 17.76s/it]using normal sol state!
+best_reward 0.993987468151025
+Trajectory reward = 0.993917
+
+ 33%|███▎      | 334/1000 [1:37:39<3:19:02, 17.93s/it]using normal sol state!
+best_reward 0.9939901675255423
+Trajectory reward = 0.993917
+
+ 34%|███▎      | 335/1000 [1:37:57<3:18:10, 17.88s/it]using normal sol state!
+best_reward 0.9939899787902602
+Trajectory reward = 0.993918
+
+ 34%|███▎      | 336/1000 [1:38:15<3:17:06, 17.81s/it]using normal sol state!
+best_reward 0.9939925342850802
+Trajectory reward = 0.993920
+
+ 34%|███▎      | 337/1000 [1:38:33<3:17:53, 17.91s/it]using normal sol state!
+best_reward 0.9939909219010516
+Trajectory reward = 0.993921
+
+ 34%|███▍      | 338/1000 [1:38:51<3:18:15, 17.97s/it]using normal sol state!
+best_reward 0.9939865939214847
+Trajectory reward = 0.993923
+
+ 34%|███▍      | 339/1000 [1:39:09<3:18:17, 18.00s/it]using normal sol state!
+best_reward 0.9939875038788903
+Trajectory reward = 0.993924
+
+ 34%|███▍      | 340/1000 [1:39:27<3:18:48, 18.07s/it]using normal sol state!
+best_reward 0.9940016848341975
+Trajectory reward = 0.993925
+
+ 34%|███▍      | 341/1000 [1:39:45<3:18:12, 18.05s/it]using normal sol state!
+best_reward 0.993994072383566
+Trajectory reward = 0.993927
+
+ 34%|███▍      | 342/1000 [1:40:03<3:16:55, 17.96s/it]using normal sol state!
+best_reward 0.9939901152417212
+Trajectory reward = 0.993928
+
+ 34%|███▍      | 343/1000 [1:40:21<3:16:00, 17.90s/it]using normal sol state!
+best_reward 0.9939947904396332
+Trajectory reward = 0.993929
+
+ 34%|███▍      | 344/1000 [1:40:39<3:16:11, 17.94s/it]using normal sol state!
+best_reward 0.9939946048982874
+Trajectory reward = 0.993930
+
+ 34%|███▍      | 345/1000 [1:40:57<3:15:41, 17.93s/it]using normal sol state!
+best_reward 0.9939981238799214
+Trajectory reward = 0.993931
+
+ 35%|███▍      | 346/1000 [1:41:14<3:14:35, 17.85s/it]using normal sol state!
+best_reward 0.9939962471939898
+Trajectory reward = 0.993932
+
+ 35%|███▍      | 347/1000 [1:41:32<3:14:33, 17.88s/it]using normal sol state!
+best_reward 0.9939937310157416
+Trajectory reward = 0.993932
+
+ 35%|███▍      | 348/1000 [1:41:50<3:13:50, 17.84s/it]using normal sol state!
+best_reward 0.9939972824753244
+Trajectory reward = 0.993933
+
+ 35%|███▍      | 349/1000 [1:42:08<3:14:10, 17.90s/it]using normal sol state!
+best_reward 0.9939960502757705
+Trajectory reward = 0.993934
+
+ 35%|███▌      | 350/1000 [1:42:26<3:13:00, 17.82s/it]using normal sol state!
+best_reward 0.9940009886961241
+Trajectory reward = 0.993935
+==============>>>>>>>>>>> saving progress 
+
+ 35%|███▌      | 351/1000 [1:42:44<3:13:05, 17.85s/it]using normal sol state!
+best_reward 0.9939865611549972
+Trajectory reward = 0.993936
+
+ 35%|███▌      | 352/1000 [1:43:01<3:12:34, 17.83s/it]using normal sol state!
+best_reward 0.9940102187799794
+Trajectory reward = 0.993936
+
+ 35%|███▌      | 353/1000 [1:43:19<3:12:42, 17.87s/it]using normal sol state!
+best_reward 0.9939960063625645
+Trajectory reward = 0.993936
+
+ 35%|███▌      | 354/1000 [1:43:37<3:12:46, 17.90s/it]using normal sol state!
+best_reward 0.9940024786670105
+Trajectory reward = 0.993938
+
+ 36%|███▌      | 355/1000 [1:43:55<3:12:23, 17.90s/it]using normal sol state!
+best_reward 0.9939989410594257
+Trajectory reward = 0.993938
+
+ 36%|███▌      | 356/1000 [1:44:13<3:11:43, 17.86s/it]using normal sol state!
+best_reward 0.9940033839460277
+Trajectory reward = 0.993939
+
+ 36%|███▌      | 357/1000 [1:44:31<3:11:26, 17.86s/it]using normal sol state!
+best_reward 0.9940041506743885
+Trajectory reward = 0.993940
+
+ 36%|███▌      | 358/1000 [1:44:49<3:10:49, 17.83s/it]using normal sol state!
+best_reward 0.9940067902851779
+Trajectory reward = 0.993942
+
+ 36%|███▌      | 359/1000 [1:45:06<3:10:43, 17.85s/it]using normal sol state!
+best_reward 0.994000355889132
+Trajectory reward = 0.993943
+
+ 36%|███▌      | 360/1000 [1:45:24<3:10:32, 17.86s/it]using normal sol state!
+best_reward 0.9940129369259105
+Trajectory reward = 0.993945
+
+ 36%|███▌      | 361/1000 [1:45:42<3:09:48, 17.82s/it]using normal sol state!
+best_reward 0.9940023696112945
+Trajectory reward = 0.993946
+
+ 36%|███▌      | 362/1000 [1:46:00<3:09:32, 17.83s/it]using normal sol state!
+best_reward 0.9940025352051239
+Trajectory reward = 0.993946
+
+ 36%|███▋      | 363/1000 [1:46:18<3:08:56, 17.80s/it]using normal sol state!
+best_reward 0.9940019181129877
+Trajectory reward = 0.993947
+
+ 36%|███▋      | 364/1000 [1:46:36<3:09:17, 17.86s/it]using normal sol state!
+best_reward 0.9940075307601514
+Trajectory reward = 0.993949
+
+ 36%|███▋      | 365/1000 [1:46:54<3:09:10, 17.87s/it]using normal sol state!
+best_reward 0.9940028654721289
+Trajectory reward = 0.993950
+
+ 37%|███▋      | 366/1000 [1:47:11<3:08:38, 17.85s/it]using normal sol state!
+best_reward 0.9940132528573999
+Trajectory reward = 0.993950
+
+ 37%|███▋      | 367/1000 [1:47:29<3:08:35, 17.88s/it]using normal sol state!
+best_reward 0.9940192249860009
+Trajectory reward = 0.993950
+
+ 37%|███▋      | 368/1000 [1:47:47<3:09:08, 17.96s/it]using normal sol state!
+best_reward 0.9939957795395483
+Trajectory reward = 0.993952
+
+ 37%|███▋      | 369/1000 [1:48:05<3:08:27, 17.92s/it]using normal sol state!
+best_reward 0.9940063844861974
+Trajectory reward = 0.993953
+
+ 37%|███▋      | 370/1000 [1:48:23<3:07:44, 17.88s/it]using normal sol state!
+best_reward 0.9940041973424596
+Trajectory reward = 0.993954
+
+ 37%|███▋      | 371/1000 [1:48:41<3:08:41, 18.00s/it]using normal sol state!
+best_reward 0.9940106941077884
+Trajectory reward = 0.993955
+
+ 37%|███▋      | 372/1000 [1:48:59<3:07:55, 17.95s/it]using normal sol state!
+best_reward 0.9940054261383081
+Trajectory reward = 0.993957
+
+ 37%|███▋      | 373/1000 [1:49:17<3:07:48, 17.97s/it]using normal sol state!
+best_reward 0.9940058381852855
+Trajectory reward = 0.993957
+
+ 37%|███▋      | 374/1000 [1:49:35<3:07:39, 17.99s/it]using normal sol state!
+best_reward 0.993997852408412
+Trajectory reward = 0.993958
+
+ 38%|███▊      | 375/1000 [1:49:53<3:07:42, 18.02s/it]using normal sol state!
+best_reward 0.9940052791272662
+Trajectory reward = 0.993959
+
+ 38%|███▊      | 376/1000 [1:50:11<3:06:52, 17.97s/it]using normal sol state!
+best_reward 0.9940221653830458
+Trajectory reward = 0.993959
+
+ 38%|███▊      | 377/1000 [1:50:29<3:06:08, 17.93s/it]using normal sol state!
+best_reward 0.994018632999694
+Trajectory reward = 0.993960
+
+ 38%|███▊      | 378/1000 [1:50:47<3:05:54, 17.93s/it]using normal sol state!
+best_reward 0.9940037279302316
+Trajectory reward = 0.993961
+
+ 38%|███▊      | 379/1000 [1:51:05<3:05:27, 17.92s/it]using normal sol state!
+best_reward 0.9940185415123359
+Trajectory reward = 0.993962
+
+ 38%|███▊      | 380/1000 [1:51:23<3:04:43, 17.88s/it]using normal sol state!
+best_reward 0.9940082254375856
+Trajectory reward = 0.993963
+
+ 38%|███▊      | 381/1000 [1:51:41<3:04:54, 17.92s/it]using normal sol state!
+best_reward 0.9940231015965216
+Trajectory reward = 0.993963
+
+ 38%|███▊      | 382/1000 [1:51:59<3:04:50, 17.95s/it]using normal sol state!
+best_reward 0.9940169911342116
+Trajectory reward = 0.993964
+
+ 38%|███▊      | 383/1000 [1:52:17<3:05:53, 18.08s/it]using normal sol state!
+best_reward 0.9940388102617302
+Trajectory reward = 0.993964
+
+ 38%|███▊      | 384/1000 [1:52:35<3:05:17, 18.05s/it]using normal sol state!
+best_reward 0.9940164328451767
+Trajectory reward = 0.993965
+
+ 38%|███▊      | 385/1000 [1:52:53<3:04:29, 18.00s/it]using normal sol state!
+best_reward 0.9940080279246231
+Trajectory reward = 0.993966
+
+ 39%|███▊      | 386/1000 [1:53:11<3:04:11, 18.00s/it]using normal sol state!
+best_reward 0.99401565772668
+Trajectory reward = 0.993967
+
+ 39%|███▊      | 387/1000 [1:53:29<3:04:02, 18.01s/it]using normal sol state!
+best_reward 0.9940162300635659
+Trajectory reward = 0.993968
+
+ 39%|███▉      | 388/1000 [1:53:47<3:03:20, 17.97s/it]using normal sol state!
+best_reward 0.9940329581490597
+Trajectory reward = 0.993968
+
+ 39%|███▉      | 389/1000 [1:54:05<3:03:16, 18.00s/it]using normal sol state!
+best_reward 0.9940163863040377
+Trajectory reward = 0.993969
+
+ 39%|███▉      | 390/1000 [1:54:23<3:02:39, 17.97s/it]using normal sol state!
+best_reward 0.99402563624008
+Trajectory reward = 0.993969
+
+ 39%|███▉      | 391/1000 [1:54:41<3:02:21, 17.97s/it]using normal sol state!
+best_reward 0.9940228889904584
+Trajectory reward = 0.993970
+
+ 39%|███▉      | 392/1000 [1:54:59<3:02:30, 18.01s/it]using normal sol state!
+best_reward 0.9940163775664455
+Trajectory reward = 0.993971
+
+ 39%|███▉      | 393/1000 [1:55:17<3:01:46, 17.97s/it]using normal sol state!
+best_reward 0.9940102956877592
+Trajectory reward = 0.993971
+
+ 39%|███▉      | 394/1000 [1:55:35<3:02:01, 18.02s/it]using normal sol state!
+best_reward 0.9940188972134545
+Trajectory reward = 0.993971
+
+ 40%|███▉      | 395/1000 [1:55:53<3:01:17, 17.98s/it]using normal sol state!
+best_reward 0.9940277075288566
+Trajectory reward = 0.993972
+
+ 40%|███▉      | 396/1000 [1:56:11<3:01:09, 18.00s/it]using normal sol state!
+best_reward 0.9940209067294776
+Trajectory reward = 0.993973
+
+ 40%|███▉      | 397/1000 [1:56:29<3:01:19, 18.04s/it]using normal sol state!
+best_reward 0.9940201736788665
+Trajectory reward = 0.993974
+
+ 40%|███▉      | 398/1000 [1:56:47<3:00:41, 18.01s/it]using normal sol state!
+best_reward 0.9940333965216591
+Trajectory reward = 0.993976
+
+ 40%|███▉      | 399/1000 [1:57:05<3:00:27, 18.02s/it]using normal sol state!
+best_reward 0.9940215355050076
+Trajectory reward = 0.993976
+
+ 40%|████      | 400/1000 [1:57:23<3:00:03, 18.01s/it]using normal sol state!
+best_reward 0.9940271506677276
+Trajectory reward = 0.993977
+==============>>>>>>>>>>> saving progress 
+
+ 40%|████      | 401/1000 [1:57:41<3:00:17, 18.06s/it]using normal sol state!
+best_reward 0.9940076952309758
+Trajectory reward = 0.993977
+
+ 40%|████      | 402/1000 [1:57:59<3:00:36, 18.12s/it]using normal sol state!
+best_reward 0.9940243114859697
+Trajectory reward = 0.993978
+
+ 40%|████      | 403/1000 [1:58:18<3:00:37, 18.15s/it]using normal sol state!
+best_reward 0.994024526684593
+Trajectory reward = 0.993978
+
+ 40%|████      | 404/1000 [1:58:36<3:00:39, 18.19s/it]using normal sol state!
+best_reward 0.9940196299979492
+Trajectory reward = 0.993979
+
+ 40%|████      | 405/1000 [1:58:54<3:00:06, 18.16s/it]using normal sol state!
+best_reward 0.9940190877080723
+Trajectory reward = 0.993979
+
+ 41%|████      | 406/1000 [1:59:12<2:59:54, 18.17s/it]using normal sol state!
+best_reward 0.9940243605858944
+Trajectory reward = 0.993980
+
+ 41%|████      | 407/1000 [1:59:31<3:00:19, 18.25s/it]using normal sol state!
+best_reward 0.9940137752684608
+Trajectory reward = 0.993980
+
+ 41%|████      | 408/1000 [1:59:49<3:00:07, 18.26s/it]using normal sol state!
+best_reward 0.9940162410041086
+Trajectory reward = 0.993980
+
+ 41%|████      | 409/1000 [2:00:07<3:00:05, 18.28s/it]using normal sol state!
+best_reward 0.9940203872099346
+Trajectory reward = 0.993981
+
+ 41%|████      | 410/1000 [2:00:25<2:59:23, 18.24s/it]using normal sol state!
+best_reward 0.9940175612953386
+Trajectory reward = 0.993981
+
+ 41%|████      | 411/1000 [2:00:44<2:59:15, 18.26s/it]using normal sol state!
+best_reward 0.9940265582222524
+Trajectory reward = 0.993982
+
+ 41%|████      | 412/1000 [2:01:02<2:58:40, 18.23s/it]using normal sol state!
+best_reward 0.994021207999879
+Trajectory reward = 0.993982
+
+ 41%|████▏     | 413/1000 [2:01:20<2:58:33, 18.25s/it]using normal sol state!
+best_reward 0.9940405520181606
+Trajectory reward = 0.993982
+
+ 41%|████▏     | 414/1000 [2:01:38<2:58:12, 18.25s/it]using normal sol state!
+best_reward 0.9940296194545907
+Trajectory reward = 0.993982
+
+ 42%|████▏     | 415/1000 [2:01:57<2:58:30, 18.31s/it]using normal sol state!
+best_reward 0.994036536974173
+Trajectory reward = 0.993982
+
+ 42%|████▏     | 416/1000 [2:02:15<2:59:05, 18.40s/it]using normal sol state!
+best_reward 0.9940288615905817
+Trajectory reward = 0.993981
+
+ 42%|████▏     | 417/1000 [2:02:34<2:58:58, 18.42s/it]using normal sol state!
+best_reward 0.9940262380504217
+Trajectory reward = 0.993980
+
+ 42%|████▏     | 418/1000 [2:02:52<2:58:50, 18.44s/it]using normal sol state!
+best_reward 0.9940253186050729
+Trajectory reward = 0.993981
+
+ 42%|████▏     | 419/1000 [2:03:11<2:59:18, 18.52s/it]using normal sol state!
+best_reward 0.9940333067469006
+Trajectory reward = 0.993982
+
+ 42%|████▏     | 420/1000 [2:03:30<2:59:16, 18.55s/it]using normal sol state!
+best_reward 0.9940608079937454
+Trajectory reward = 0.993983
+
+ 42%|████▏     | 421/1000 [2:03:48<2:58:44, 18.52s/it]using normal sol state!
+best_reward 0.9940281441317828
+Trajectory reward = 0.993983
+
+ 42%|████▏     | 422/1000 [2:04:07<2:58:01, 18.48s/it]using normal sol state!
+best_reward 0.9940360878351189
+Trajectory reward = 0.993984
+
+ 42%|████▏     | 423/1000 [2:04:25<2:57:34, 18.47s/it]using normal sol state!
+best_reward 0.9940187154358037
+Trajectory reward = 0.993985
+
+ 42%|████▏     | 424/1000 [2:04:44<2:59:37, 18.71s/it]using normal sol state!
+best_reward 0.994026963486451
+Trajectory reward = 0.993985
+
+ 42%|████▎     | 425/1000 [2:05:03<2:59:31, 18.73s/it]using normal sol state!
+best_reward 0.9940335914836375
+Trajectory reward = 0.993986
+
+ 43%|████▎     | 426/1000 [2:05:22<2:58:46, 18.69s/it]using normal sol state!
+best_reward 0.9940210533064517
+Trajectory reward = 0.993987
+
+ 43%|████▎     | 427/1000 [2:05:40<2:58:10, 18.66s/it]using normal sol state!
+best_reward 0.9940252569714018
+Trajectory reward = 0.993988
+
+ 43%|████▎     | 428/1000 [2:05:59<2:57:41, 18.64s/it]using normal sol state!
+best_reward 0.9940264471985606
+Trajectory reward = 0.993988
+
+ 43%|████▎     | 429/1000 [2:06:18<2:57:53, 18.69s/it]using normal sol state!
+best_reward 0.9940252445712794
+Trajectory reward = 0.993990
+
+ 43%|████▎     | 430/1000 [2:06:36<2:57:55, 18.73s/it]using normal sol state!
+best_reward 0.9940666643371219
+Trajectory reward = 0.993990
+
+ 43%|████▎     | 431/1000 [2:06:55<2:58:37, 18.84s/it]using normal sol state!
+best_reward 0.9940306026138913
+Trajectory reward = 0.993991
+
+ 43%|████▎     | 432/1000 [2:07:14<2:58:00, 18.80s/it]using normal sol state!
+best_reward 0.9940280576437122
+Trajectory reward = 0.993991
+
+ 43%|████▎     | 433/1000 [2:07:33<2:57:32, 18.79s/it]using normal sol state!
+best_reward 0.9940761925286957
+Trajectory reward = 0.993992
+
+ 43%|████▎     | 434/1000 [2:07:52<2:56:33, 18.72s/it]using normal sol state!
+best_reward 0.9940500160178055
+Trajectory reward = 0.993993
+
+ 44%|████▎     | 435/1000 [2:08:10<2:55:46, 18.67s/it]using normal sol state!
+best_reward 0.994028896800614
+Trajectory reward = 0.993993
+
+ 44%|████▎     | 436/1000 [2:08:29<2:55:13, 18.64s/it]using normal sol state!
+best_reward 0.9940591068004239
+Trajectory reward = 0.993994
+
+ 44%|████▎     | 437/1000 [2:08:48<2:55:49, 18.74s/it]using normal sol state!
+best_reward 0.9940347027043375
+Trajectory reward = 0.993995
+
+ 44%|████▍     | 438/1000 [2:09:06<2:55:27, 18.73s/it]using normal sol state!
+best_reward 0.9940179315204094
+Trajectory reward = 0.993995
+
+ 44%|████▍     | 439/1000 [2:09:25<2:55:25, 18.76s/it]using normal sol state!
+best_reward 0.9940383190524819
+Trajectory reward = 0.993995
+
+ 44%|████▍     | 440/1000 [2:09:44<2:54:50, 18.73s/it]using normal sol state!
+best_reward 0.9940366064510697
+Trajectory reward = 0.993996
+
+ 44%|████▍     | 441/1000 [2:10:03<2:54:26, 18.72s/it]using normal sol state!
+best_reward 0.994034219102062
+Trajectory reward = 0.993996
+
+ 44%|████▍     | 442/1000 [2:10:21<2:54:14, 18.74s/it]using normal sol state!
+best_reward 0.9940325398091687
+Trajectory reward = 0.993995
+
+ 44%|████▍     | 443/1000 [2:10:40<2:54:14, 18.77s/it]using normal sol state!
+best_reward 0.9940398143649889
+Trajectory reward = 0.993996
+
+ 44%|████▍     | 444/1000 [2:10:59<2:54:15, 18.80s/it]using normal sol state!
+best_reward 0.9940342611171528
+Trajectory reward = 0.993995
+
+ 44%|████▍     | 445/1000 [2:11:18<2:54:09, 18.83s/it]using normal sol state!
+best_reward 0.9940775599761288
+Trajectory reward = 0.993996
+
+ 45%|████▍     | 446/1000 [2:11:37<2:54:18, 18.88s/it]using normal sol state!
+best_reward 0.9940458372993909
+Trajectory reward = 0.993998
+
+ 45%|████▍     | 447/1000 [2:11:56<2:53:27, 18.82s/it]using normal sol state!
+best_reward 0.9940310309746879
+Trajectory reward = 0.994000
+
+ 45%|████▍     | 448/1000 [2:12:14<2:52:46, 18.78s/it]using normal sol state!
+best_reward 0.9940539257882721
+Trajectory reward = 0.994000
+
+ 45%|████▍     | 449/1000 [2:12:33<2:52:35, 18.79s/it]using normal sol state!
+best_reward 0.9940286715352433
+Trajectory reward = 0.994000
+
+ 45%|████▌     | 450/1000 [2:12:52<2:52:56, 18.87s/it]using normal sol state!
+best_reward 0.9943957716188241
+Trajectory reward = 0.994000
+==============>>>>>>>>>>> saving progress 
+
+ 45%|████▌     | 451/1000 [2:13:11<2:53:19, 18.94s/it]using normal sol state!
+best_reward 0.9940430325135146
+Trajectory reward = 0.994001
+
+ 45%|████▌     | 452/1000 [2:13:31<2:54:56, 19.15s/it]using normal sol state!
+best_reward 0.9940424927082457
+Trajectory reward = 0.994001
+
+ 45%|████▌     | 453/1000 [2:13:50<2:54:16, 19.12s/it]using normal sol state!
+best_reward 0.9945859116303419
+Trajectory reward = 0.994001
+
+ 45%|████▌     | 454/1000 [2:14:09<2:53:14, 19.04s/it]using normal sol state!
+best_reward 0.9940316400510442
+Trajectory reward = 0.994001
+
+ 46%|████▌     | 455/1000 [2:14:28<2:52:32, 19.00s/it]using normal sol state!
+best_reward 0.9940267379443026
+Trajectory reward = 0.994002
+
+ 46%|████▌     | 456/1000 [2:14:47<2:52:03, 18.98s/it]using normal sol state!
+best_reward 0.9940280680726765
+Trajectory reward = 0.994002
+
+ 46%|████▌     | 457/1000 [2:15:06<2:51:37, 18.96s/it]using normal sol state!
+best_reward 0.9940528203918454
+Trajectory reward = 0.994002
+
+ 46%|████▌     | 458/1000 [2:15:24<2:50:51, 18.91s/it]using normal sol state!
+best_reward 0.9940350231357934
+Trajectory reward = 0.994002
+
+ 46%|████▌     | 459/1000 [2:15:43<2:50:30, 18.91s/it]using normal sol state!
+best_reward 0.9940703668399039
+Trajectory reward = 0.994006
+
+ 46%|████▌     | 460/1000 [2:16:02<2:49:53, 18.88s/it]using normal sol state!
+best_reward 0.9940428490080128
+Trajectory reward = 0.994008
+
+ 46%|████▌     | 461/1000 [2:16:21<2:49:30, 18.87s/it]using normal sol state!
+best_reward 0.9940761185892973
+Trajectory reward = 0.994009
+
+ 46%|████▌     | 462/1000 [2:16:40<2:50:28, 19.01s/it]using normal sol state!
+best_reward 0.994036232717668
+Trajectory reward = 0.994008
+
+ 46%|████▋     | 463/1000 [2:16:59<2:49:43, 18.96s/it]using normal sol state!
+best_reward 0.9940534860708974
+Trajectory reward = 0.994009
+
+ 46%|████▋     | 464/1000 [2:17:18<2:49:33, 18.98s/it]using normal sol state!
+best_reward 0.9940285621531612
+Trajectory reward = 0.994009
+
+ 46%|████▋     | 465/1000 [2:17:37<2:49:25, 19.00s/it]using normal sol state!
+best_reward 0.9942049707504318
+Trajectory reward = 0.994010
+
+ 47%|████▋     | 466/1000 [2:17:56<2:49:00, 18.99s/it]using normal sol state!
+best_reward 0.9940313596212925
+Trajectory reward = 0.994008
+
+ 47%|████▋     | 467/1000 [2:18:15<2:48:35, 18.98s/it]using normal sol state!
+best_reward 0.994024152394503
+Trajectory reward = 0.994004
+
+ 47%|████▋     | 468/1000 [2:18:34<2:48:09, 18.96s/it]using normal sol state!
+best_reward 0.9940379701448958
+Trajectory reward = 0.994003
+
+ 47%|████▋     | 469/1000 [2:18:53<2:47:29, 18.92s/it]using normal sol state!
+best_reward 0.9940292019869187
+Trajectory reward = 0.994004
+
+ 47%|████▋     | 470/1000 [2:19:12<2:47:11, 18.93s/it]using normal sol state!
+best_reward 0.9941166263906971
+Trajectory reward = 0.994004
+
+ 47%|████▋     | 471/1000 [2:19:31<2:47:01, 18.94s/it]using normal sol state!
+best_reward 0.994033804681499
+Trajectory reward = 0.994005
+
+ 47%|████▋     | 472/1000 [2:19:50<2:47:20, 19.02s/it]using normal sol state!
+best_reward 0.9942036447837832
+Trajectory reward = 0.994005
+
+ 47%|████▋     | 473/1000 [2:20:09<2:47:14, 19.04s/it]using normal sol state!
+best_reward 0.9940400297893974
+Trajectory reward = 0.994005
+
+ 47%|████▋     | 474/1000 [2:20:28<2:46:51, 19.03s/it]using normal sol state!
+best_reward 0.9940356491545878
+Trajectory reward = 0.994004
+
+ 48%|████▊     | 475/1000 [2:20:47<2:46:30, 19.03s/it]using normal sol state!
+best_reward 0.9943485107858757
+Trajectory reward = 0.994002
+
+ 48%|████▊     | 476/1000 [2:21:06<2:46:11, 19.03s/it]using normal sol state!
+best_reward 0.9940301547628385
+Trajectory reward = 0.994002
+
+ 48%|████▊     | 477/1000 [2:21:25<2:46:19, 19.08s/it]using normal sol state!
+best_reward 0.9940853007337489
+Trajectory reward = 0.994001
+
+ 48%|████▊     | 478/1000 [2:21:44<2:46:10, 19.10s/it]using normal sol state!
+best_reward 0.9941124042038909
+Trajectory reward = 0.994003
+
+ 48%|████▊     | 479/1000 [2:22:03<2:45:09, 19.02s/it]using normal sol state!
+best_reward 0.9942087315757346
+Trajectory reward = 0.994005
+
+ 48%|████▊     | 480/1000 [2:22:22<2:45:03, 19.04s/it]using normal sol state!
+best_reward 0.9942002829840585
+Trajectory reward = 0.994009
+
+ 48%|████▊     | 481/1000 [2:22:41<2:44:26, 19.01s/it]using normal sol state!
+best_reward 0.9943456510346286
+Trajectory reward = 0.994005
+
+ 48%|████▊     | 482/1000 [2:23:00<2:44:08, 19.01s/it]using normal sol state!
+best_reward 0.9940162181509398
+Trajectory reward = 0.994019
+
+ 48%|████▊     | 483/1000 [2:23:20<2:44:31, 19.09s/it]using normal sol state!
+best_reward 0.9948596581688472
+Trajectory reward = 0.994114
+
+ 48%|████▊     | 484/1000 [2:23:39<2:43:52, 19.06s/it]using normal sol state!
+best_reward 0.9945923172076666
+Trajectory reward = 0.994115
+
+ 48%|████▊     | 485/1000 [2:23:58<2:43:12, 19.01s/it]using normal sol state!
+best_reward 0.9948135962723689
+Trajectory reward = 0.993972
+
+ 49%|████▊     | 486/1000 [2:24:16<2:42:33, 18.97s/it]using normal sol state!
+best_reward 0.9947093881652611
+Trajectory reward = 0.993978
+
+ 49%|████▊     | 487/1000 [2:24:36<2:42:58, 19.06s/it]using normal sol state!
+best_reward 0.9950495925047638
+Trajectory reward = 0.993993
+
+ 49%|████▉     | 488/1000 [2:24:54<2:41:36, 18.94s/it]using normal sol state!
+best_reward 0.9952843451936473
+Trajectory reward = 0.994001
+
+ 49%|████▉     | 489/1000 [2:25:13<2:40:48, 18.88s/it]using normal sol state!
+best_reward 0.9952227960495386
+Trajectory reward = 0.994006
+
+ 49%|████▉     | 490/1000 [2:25:32<2:39:28, 18.76s/it]using normal sol state!
+best_reward 0.9954883051510601
+Trajectory reward = 0.994007
+
+ 49%|████▉     | 491/1000 [2:25:50<2:38:47, 18.72s/it]using normal sol state!
+best_reward 0.9959652589724024
+Trajectory reward = 0.994508
+
+ 49%|████▉     | 492/1000 [2:26:09<2:38:18, 18.70s/it]using normal sol state!
+best_reward 0.9960377952452335
+Trajectory reward = 0.995546
+
+ 49%|████▉     | 493/1000 [2:26:27<2:37:52, 18.68s/it]using normal sol state!
+best_reward 0.996040308752713
+Trajectory reward = 0.995862
+
+ 49%|████▉     | 494/1000 [2:26:46<2:36:42, 18.58s/it]using normal sol state!
+best_reward 0.9960183861851664
+Trajectory reward = 0.995885
+
+ 50%|████▉     | 495/1000 [2:27:04<2:35:59, 18.53s/it]using normal sol state!
+best_reward 0.9960398974720094
+Trajectory reward = 0.995911
+
+ 50%|████▉     | 496/1000 [2:27:23<2:35:07, 18.47s/it]using normal sol state!
+best_reward 0.9960459538540132
+Trajectory reward = 0.995931
+
+ 50%|████▉     | 497/1000 [2:27:41<2:34:33, 18.44s/it]using normal sol state!
+best_reward 0.9963508063119284
+Trajectory reward = 0.995947
+
+ 50%|████▉     | 498/1000 [2:28:00<2:35:35, 18.60s/it]using normal sol state!
+best_reward 0.9961221493812267
+Trajectory reward = 0.995963
+
+ 50%|████▉     | 499/1000 [2:28:19<2:36:04, 18.69s/it]using normal sol state!
+best_reward 0.9960569630501844
+Trajectory reward = 0.995975
+
+ 50%|█████     | 500/1000 [2:28:37<2:35:26, 18.65s/it]using normal sol state!
+best_reward 0.9960773490060973
+Trajectory reward = 0.995982
+==============>>>>>>>>>>> saving progress 
+
+ 50%|█████     | 501/1000 [2:28:56<2:35:05, 18.65s/it]using normal sol state!
+best_reward 0.9960502460681736
+Trajectory reward = 0.995988
+
+ 50%|█████     | 502/1000 [2:29:14<2:34:26, 18.61s/it]using normal sol state!
+best_reward 0.9961314588972663
+Trajectory reward = 0.995993
+
+ 50%|█████     | 503/1000 [2:29:33<2:34:21, 18.64s/it]using normal sol state!
+best_reward 0.9960192166204921
+Trajectory reward = 0.995996
+
+ 50%|█████     | 504/1000 [2:29:52<2:33:55, 18.62s/it]using normal sol state!
+best_reward 0.9960464795583389
+Trajectory reward = 0.996000
+
+ 50%|█████     | 505/1000 [2:30:10<2:33:16, 18.58s/it]using normal sol state!
+best_reward 0.9961979118827146
+Trajectory reward = 0.996005
+
+ 51%|█████     | 506/1000 [2:30:29<2:33:30, 18.64s/it]using normal sol state!
+best_reward 0.9962182789354206
+Trajectory reward = 0.996010
+
+ 51%|█████     | 507/1000 [2:30:48<2:33:07, 18.64s/it]using normal sol state!
+best_reward 0.9960516627973098
+Trajectory reward = 0.996013
+
+ 51%|█████     | 508/1000 [2:31:07<2:33:45, 18.75s/it]using normal sol state!
+best_reward 0.9960330804602479
+Trajectory reward = 0.996014
+
+ 51%|█████     | 509/1000 [2:31:25<2:32:51, 18.68s/it]using normal sol state!
+best_reward 0.996115569491586
+Trajectory reward = 0.996015
+
+ 51%|█████     | 510/1000 [2:31:44<2:32:18, 18.65s/it]using normal sol state!
+best_reward 0.9960588136438239
+Trajectory reward = 0.996016
+
+ 51%|█████     | 511/1000 [2:32:03<2:33:25, 18.83s/it]using normal sol state!
+best_reward 0.9960661473969435
+Trajectory reward = 0.996013
+
+ 51%|█████     | 512/1000 [2:32:22<2:33:02, 18.82s/it]using normal sol state!
+best_reward 0.996037666745186
+Trajectory reward = 0.996013
+
+ 51%|█████▏    | 513/1000 [2:32:40<2:32:12, 18.75s/it]using normal sol state!
+best_reward 0.9968370971901929
+Trajectory reward = 0.996011
+
+ 51%|█████▏    | 514/1000 [2:32:59<2:31:40, 18.73s/it]using normal sol state!
+best_reward 0.9961647875667238
+Trajectory reward = 0.996012
+
+ 52%|█████▏    | 515/1000 [2:33:18<2:30:51, 18.66s/it]using normal sol state!
+best_reward 0.9960350029702828
+Trajectory reward = 0.996012
+
+ 52%|█████▏    | 516/1000 [2:33:36<2:30:14, 18.62s/it]using normal sol state!
+best_reward 0.996046565352722
+Trajectory reward = 0.996010
+
+ 52%|█████▏    | 517/1000 [2:33:55<2:29:42, 18.60s/it]using normal sol state!
+best_reward 0.9960132712648578
+Trajectory reward = 0.996008
+
+ 52%|█████▏    | 518/1000 [2:34:13<2:29:21, 18.59s/it]using normal sol state!
+best_reward 0.9960952488465435
+Trajectory reward = 0.996007
+
+ 52%|█████▏    | 519/1000 [2:34:32<2:29:33, 18.66s/it]using normal sol state!
+best_reward 0.9960277850976343
+Trajectory reward = 0.996007
+
+ 52%|█████▏    | 520/1000 [2:34:51<2:29:53, 18.74s/it]using normal sol state!
+best_reward 0.9960443573056746
+Trajectory reward = 0.996008
+
+ 52%|█████▏    | 521/1000 [2:35:10<2:29:27, 18.72s/it]using normal sol state!
+best_reward 0.9969989830098182
+Trajectory reward = 0.996010
+
+ 52%|█████▏    | 522/1000 [2:35:28<2:28:56, 18.70s/it]using normal sol state!
+best_reward 0.9964848851117509
+Trajectory reward = 0.996011
+
+ 52%|█████▏    | 523/1000 [2:35:47<2:28:28, 18.68s/it]using normal sol state!
+best_reward 0.9960781969851673
+Trajectory reward = 0.996013
+
+ 52%|█████▏    | 524/1000 [2:36:06<2:29:00, 18.78s/it]using normal sol state!
+best_reward 0.996044767879841
+Trajectory reward = 0.996012
+
+ 52%|█████▎    | 525/1000 [2:36:25<2:29:10, 18.84s/it]using normal sol state!
+best_reward 0.9960426324843817
+Trajectory reward = 0.996012
+
+ 53%|█████▎    | 526/1000 [2:36:44<2:28:50, 18.84s/it]using normal sol state!
+best_reward 0.9973063483979996
+Trajectory reward = 0.996012
+
+ 53%|█████▎    | 527/1000 [2:37:03<2:28:39, 18.86s/it]using normal sol state!
+best_reward 0.9966063640087912
+Trajectory reward = 0.996010
+
+ 53%|█████▎    | 528/1000 [2:37:22<2:28:52, 18.93s/it]using normal sol state!
+best_reward 0.9974423416813232
+Trajectory reward = 0.996009
+
+ 53%|█████▎    | 529/1000 [2:37:41<2:29:31, 19.05s/it]using normal sol state!
+best_reward 0.9963791273754663
+Trajectory reward = 0.996007
+
+ 53%|█████▎    | 530/1000 [2:38:00<2:29:10, 19.04s/it]using normal sol state!
+best_reward 0.996733441441399
+Trajectory reward = 0.996016
+
+ 53%|█████▎    | 531/1000 [2:38:19<2:27:53, 18.92s/it]using normal sol state!
+best_reward 0.9961169045906408
+Trajectory reward = 0.996026
+
+ 53%|█████▎    | 532/1000 [2:38:38<2:27:15, 18.88s/it]using normal sol state!
+best_reward 0.9961428903402391
+Trajectory reward = 0.996057
+
+ 53%|█████▎    | 533/1000 [2:38:56<2:26:45, 18.85s/it]using normal sol state!
+best_reward 0.9960441283082431
+Trajectory reward = 0.996080
+
+ 53%|█████▎    | 534/1000 [2:39:15<2:25:53, 18.78s/it]using normal sol state!
+best_reward 0.9961162322919846
+Trajectory reward = 0.996087
+
+ 54%|█████▎    | 535/1000 [2:39:34<2:25:24, 18.76s/it]using normal sol state!
+best_reward 0.9965114435768124
+Trajectory reward = 0.996089
+
+ 54%|█████▎    | 536/1000 [2:39:52<2:25:13, 18.78s/it]using normal sol state!
+best_reward 0.9969638197400138
+Trajectory reward = 0.996090
+
+ 54%|█████▎    | 537/1000 [2:40:11<2:24:39, 18.75s/it]using normal sol state!
+best_reward 0.9961264738191843
+Trajectory reward = 0.996090
+
+ 54%|█████▍    | 538/1000 [2:40:30<2:24:06, 18.72s/it]using normal sol state!
+best_reward 0.9968329669243594
+Trajectory reward = 0.996088
+
+ 54%|█████▍    | 539/1000 [2:40:48<2:23:29, 18.68s/it]using normal sol state!
+best_reward 0.996128109452665
+Trajectory reward = 0.996084
+
+ 54%|█████▍    | 540/1000 [2:41:07<2:23:07, 18.67s/it]using normal sol state!
+best_reward 0.9968886953199988
+Trajectory reward = 0.996082
+
+ 54%|█████▍    | 541/1000 [2:41:26<2:22:46, 18.66s/it]using normal sol state!
+best_reward 0.9961617295915951
+Trajectory reward = 0.996081
+
+ 54%|█████▍    | 542/1000 [2:41:45<2:23:41, 18.82s/it]using normal sol state!
+best_reward 0.9961699728949619
+Trajectory reward = 0.996080
+
+ 54%|█████▍    | 543/1000 [2:42:04<2:23:44, 18.87s/it]using normal sol state!
+best_reward 0.9961322131490941
+Trajectory reward = 0.996080
+
+ 54%|█████▍    | 544/1000 [2:42:23<2:24:13, 18.98s/it]using normal sol state!
+best_reward 0.9961140540434682
+Trajectory reward = 0.996081
+
+ 55%|█████▍    | 545/1000 [2:42:42<2:23:15, 18.89s/it]using normal sol state!
+best_reward 0.9961332439409215
+Trajectory reward = 0.996083
+
+ 55%|█████▍    | 546/1000 [2:43:00<2:22:14, 18.80s/it]using normal sol state!
+best_reward 0.9961242246502584
+Trajectory reward = 0.996085
+
+ 55%|█████▍    | 547/1000 [2:43:19<2:21:35, 18.75s/it]using normal sol state!
+best_reward 0.9961303620194477
+Trajectory reward = 0.996085
+
+ 55%|█████▍    | 548/1000 [2:43:38<2:21:07, 18.73s/it]using normal sol state!
+Qt: Cannot set locale modifiers: 
+best_reward 0.9963303020782684
+Trajectory reward = 0.996086
+
+ 55%|█████▍    | 549/1000 [2:43:57<2:22:00, 18.89s/it]using normal sol state!
+best_reward 0.9961236973238426
+Trajectory reward = 0.996085
+
+ 55%|█████▌    | 550/1000 [2:44:16<2:21:51, 18.91s/it]using normal sol state!
+best_reward 0.9964684489991003
+Trajectory reward = 0.996086
+==============>>>>>>>>>>> saving progress 
+
+ 55%|█████▌    | 551/1000 [2:44:35<2:22:10, 19.00s/it]using normal sol state!
+best_reward 0.9961983865094423
+Trajectory reward = 0.996086
+
+ 55%|█████▌    | 552/1000 [2:44:54<2:21:50, 19.00s/it]using normal sol state!
+best_reward 0.9961447538298228
+Trajectory reward = 0.996087
+
+ 55%|█████▌    | 553/1000 [2:45:13<2:21:47, 19.03s/it]using normal sol state!
+

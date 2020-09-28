@@ -1,0 +1,79 @@
+1: exp stability loss, 0.01 weight
+2: exp stability loss, 0.0000001 weight 
+4: no stability loss
+5: 10e-12 weight
+6: 5*10e-5 weight
+7: 10e-5
+8. 2.5*10e-5 weight
+9: 1.25*10e-5
+10: 1.5*10e-5, 1.5*10e-9
+11: 4-channel
+12: normal, 1/2 scale
+13: normal, 1/3 scale
+14: mujoco dataset
+15: baseline, mujoco dataset
+16: stability loss, probably bugged
+17: 2-channel output no stability loss
+18: 2-channel output no stability loss improved gt voxelization
+20: 4-channel no stability
+21: genre
+22: four channel 1.5e-5 stability
+23: four channel 1.5e-5 stability rotation normalized
+25: four channel no stability no other prediction
+26: four channel stability no other prediction
+29: four channel 1.5e-6 stability
+30: four channel 1e-7 stability
+31: four channel 1e-8 stability
+32: genre baseline
+33: genre baseline solid
+34: four channel no stability
+35: four channel 1e-9 stability
+--fixed stability to use sides too--
+36: four channel stability connectivity
+37: four channel stability no connectivity
+38: 10e-9 connectivity loss
+39: 10e-10 connectivity loss
+40: 10e-11 connectivity loss
+41: 10e-8 stability loss
+---fixed connectivity loss---
+42: 10e-11 connectivity loss 10e-8 stability loss
+43: 10e-10 connectivity loss 10e-8 stability loss
+44: 10e-7 stabililty loss
+45: 10e-9 connectivity loss 10e-8 stability loss
+46: 10e-9 connectivity loss 10e-8 stability loss optimized connectivity computation
+47: four channel
+48: 10e-9 connectivity loss 10e-8 stability loss optimized 2x connectivity computation
+49: 10e-10 connectivity loss 10e-8 stability loss optimized 2x connectivity computation
+50: four channel 10e-8 stability
+51: four channel 10e-8 stability
+52: four channel
+53: baseline
+57: four channel, stability, connectivity
+----------fixed roation bug-------------
+60: four channel
+61: baseline
+62: four channel 5e-7 stability
+63: four channel 1e-7 stability
+64: four channel 1e-7 stability 1e-8 connectivity
+65: four channel 1e-7 stability 1e-9 connectivity
+66: four channel 1e-7 stability 1e-10 connectivity
+67: four channel 1e-7 stability 5e-10 connectivity
+---weights in options---
+68: four channel 1e-7 stability 1e-10 connectivity
+69: four channel 1e-7 stability 5e-11 connectivity
+70: four channel 1e-7 stability 1e-11 connectivity
+71: four channel 1e-7 stability 1e-9 connectivity (dgx)
+------------------unk stability and connectivity---------------
+74: four channel 1e-7 stability (dgx)
+76: four channel 1e-6 stability (dgx)
+77: four channel 1e-7 stability 1e-8 connectivity (dgx)
+78: four channel 1e-7 stability 1e-9 connectivity (mox)
+------------------no table leveling baseline-----------
+79: baseline (dgx)
+80: four channel 1e-7 stability 1e-9 connectivity (dgx)
+81: four channel 1e-8 stability 1e-9 connectivity (dgx)
+
+
+
+
+

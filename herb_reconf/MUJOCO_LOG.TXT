@@ -1,0 +1,21 @@
+Fri Oct  4 19:50:34 2019
+ERROR: Could not open activation key file mjkey.txt
+
+Fri Oct  4 19:51:37 2019
+ERROR: Could not open activation key file mjkey.txt
+
+Fri Oct  4 19:51:45 2019
+ERROR: Could not open activation key file mjkey.txt
+
+Fri Oct  4 19:56:14 2019
+ERROR: Could not open activation key file mjkey.txt
+
+Fri Oct  4 19:57:46 2019
+ERROR: Could not open activation key file mjkey.txt
+
+Fri Oct  4 19:58:27 2019
+ERROR: Could not open activation key file mjkey.txt
+
+Fri Oct  4 20:01:31 2019
+ERROR: Could not open activation key file mjkey.txt
+

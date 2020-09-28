@@ -1,0 +1,765 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        141.62361145019531,
+        128.12850952148438,
+        523.92828369140625
+      ],
+      "min": [
+        -133.19502258300781,
+        -121.32559204101562,
+        19.476654052734375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1008,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.97416985034942627,
+        0.86382603645324707,
+        0.76971930265426636
+      ],
+      "min": [
+        -1,
+        -0.90888053178787231,
+        -1.7426202703063609e-07
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.90888047218322754,
+        0.97417008876800537,
+        0.0060729389078915119,
+        1
+      ],
+      "min": [
+        -0.86382651329040527,
+        -1,
+        -2.1317191567504779e-06,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 672,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.98172479867935181,
+        0.69453328847885132
+      ],
+      "min": [
+        0.908439040184021,
+        0.34918138384819031
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 210,
+      "max": [
+        83
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2016,
+      "componentType": 5126,
+      "count": 1165,
+      "max": [
+        268.72164916992188,
+        258.86166381835938,
+        595.30975341796875
+      ],
+      "min": [
+        -264.12451171875,
+        -247.46247863769531,
+        378.608642578125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15996,
+      "componentType": 5126,
+      "count": 1165,
+      "max": [
+        0.99461203813552856,
+        0.998798668384552,
+        0.99978476762771606
+      ],
+      "min": [
+        -0.98774659633636475,
+        -0.99800628423690796,
+        -0.86369353532791138
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1344,
+      "componentType": 5126,
+      "count": 1165,
+      "max": [
+        0.99998360872268677,
+        0.99750602245330811,
+        0.99425339698791504,
+        1
+      ],
+      "min": [
+        -0.99918287992477417,
+        -0.99242323637008667,
+        -0.99882757663726807,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1344,
+      "componentType": 5126,
+      "count": 1165,
+      "max": [
+        0.98713499307632446,
+        0.99455821514129639
+      ],
+      "min": [
+        0.0075619528070092201,
+        0.005430546123534441
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10664,
+      "componentType": 5126,
+      "count": 1165,
+      "max": [
+        0.997417151927948,
+        0.99821025133132935
+      ],
+      "min": [
+        0.0049020913429558277,
+        0.0048986743204295635
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 840,
+      "componentType": 5125,
+      "count": 2280,
+      "max": [
+        1164
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 29976,
+      "componentType": 5126,
+      "count": 471,
+      "max": [
+        94.257965087890625,
+        94.257896423339844,
+        300.063720703125
+      ],
+      "min": [
+        -94.25787353515625,
+        -94.257942199707031,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 35628,
+      "componentType": 5126,
+      "count": 471,
+      "max": [
+        1,
+        1,
+        0.99999862909317017
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 19984,
+      "componentType": 5126,
+      "count": 471,
+      "max": [
+        0.99685394763946533,
+        0.5926859974861145,
+        1,
+        1
+      ],
+      "min": [
+        -0.99824041128158569,
+        -0.99806904792785645,
+        -0.5129668116569519,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 19984,
+      "componentType": 5126,
+      "count": 471,
+      "max": [
+        0.89493244886398315,
+        0.7762262225151062
+      ],
+      "min": [
+        0.66747307777404785,
+        0.011221772059798241
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23752,
+      "componentType": 5126,
+      "count": 471,
+      "max": [
+        1.0703893899917603,
+        1.0941499471664429
+      ],
+      "min": [
+        -0.22550904750823975,
+        0.076320670545101166
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 9960,
+      "componentType": 5125,
+      "count": 2448,
+      "max": [
+        470
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 41280,
+      "componentType": 5126,
+      "count": 135,
+      "max": [
+        79.226211547851562,
+        79.226150512695312,
+        162.41552734375
+      ],
+      "min": [
+        -79.226127624511719,
+        -79.2261962890625,
+        17.771804809570312
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42900,
+      "componentType": 5126,
+      "count": 135,
+      "max": [
+        0.99142849445343018,
+        0.99142849445343018,
+        1
+      ],
+      "min": [
+        -0.99142849445343018,
+        -0.99142849445343018,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 27520,
+      "componentType": 5126,
+      "count": 135,
+      "max": [
+        0.99998354911804199,
+        0.98951607942581177,
+        0.98934304714202881,
+        1
+      ],
+      "min": [
+        -0.86602693796157837,
+        -0.99933785200119019,
+        -0.30809679627418518,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 27520,
+      "componentType": 5126,
+      "count": 135,
+      "max": [
+        0.99054378271102905,
+        0.79729706048965454
+      ],
+      "min": [
+        0.79946750402450562,
+        0.0087516959756612778
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28600,
+      "componentType": 5126,
+      "count": 135,
+      "max": [
+        1.3022010326385498,
+        0.72840440273284912
+      ],
+      "min": [
+        0.49674016237258911,
+        -0.0009900704026222229
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 19752,
+      "componentType": 5125,
+      "count": 576,
+      "max": [
+        134
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "roket_kroket (https://sketchfab.com/vav206)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/magnolia-647a28ca37a84e0bbc312d0b8044452d",
+      "title": "Magnolia"
+    },
+    "generator": "Sketchfab-4.63.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22056,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29680,
+      "byteOffset": 22056,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44520,
+      "byteOffset": 51736,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29680,
+      "byteOffset": 96256,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 125936,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/flowers_magnolia_water_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/flowers_magnolia_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/flowers_magnolia_normal.jpeg"
+    },
+    {
+      "uri": "textures/flowers_magnolia_baseColor.png"
+    },
+    {
+      "uri": "textures/flowers_magnolia_bowl_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/flowers_magnolia_stem_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/flowers_magnolia_stem_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "flowers_magnolia_stem",
+      "occlusionTexture": {
+        "index": 6,
+        "strength": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.38972107859999999
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "flowers_magnolia",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.4624483513
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "flowers_magnolia_bowl",
+      "occlusionTexture": {
+        "index": 4,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          0.29275138160000003
+        ],
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 4,
+          "texCoord": 1
+        },
+        "roughnessFactor": 0.13517562399999999
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "flowers_magnolia_water",
+      "occlusionTexture": {
+        "index": 0,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          0.29275138160000003
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.11093319980000001
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "flowers_magnolia_003_flowers_magnolia_stem_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "flowers_magnolia_003_flowers_magnolia_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "flowers_magnolia_003_flowers_magnolia_bowl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "flowers_magnolia_003_flowers_magnolia_water_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 19,
+            "POSITION": 18,
+            "TANGENT": 20,
+            "TEXCOORD_0": 21,
+            "TEXCOORD_1": 22
+          },
+          "indices": 23,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "14f21ed05e164600bdb6699474a4c541.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "flowers_magnolia_003"
+    },
+    {
+      "mesh": 0,
+      "name": "flowers_magnolia_003_flowers_magnolia_stem_0"
+    },
+    {
+      "mesh": 1,
+      "name": "flowers_magnolia_003_flowers_magnolia_0"
+    },
+    {
+      "mesh": 2,
+      "name": "flowers_magnolia_003_flowers_magnolia_bowl_0"
+    },
+    {
+      "mesh": 3,
+      "name": "flowers_magnolia_003_flowers_magnolia_water_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    }
+  ]
+}
+

@@ -1,0 +1,10 @@
+0: hard, gt
+1: hard, obs
+2: hard, 0.01 CD
+3: hard, 0.05 CD
+4: hard, 0.1 CD
+5: hard, 0.075 CD
+6: hard, 0.06 CD
+7: grasp, 0 CD
+8: hard, obs, 25 paths
+9: grasp 0.01 CD
