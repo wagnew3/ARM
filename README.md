@@ -1,5 +1,4 @@
-# **ARM**: Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity
-
+# **ARM**: Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity ([Paper](https://arxiv.org/pdf/2009.13146.pdf))
 <p align="center"><img src="https://github.com/wagnew3/ARM/blob/master/webpage_assets/recon_comparison_video.gif" width="1000" /></p>
 
 Learning-based 3D object reconstruction enables single- or few-shot estimation of 3D object models. For robotics, this holds the potential to allow model-based methods to rapidly adapt to novel objects and scenes. Existing 3D reconstruction techniques optimize for visual reconstruction fidelity, typically measured by chamfer distance or voxel IOU. We find that when applied to realistic, cluttered robotics environments, these systems produce reconstructions with low physical realism, resulting in poor task performance when used for model-based control. We propose ARM, an amodal 3D reconstruction system that introduces (1) a stability prior over object shapes, (2) a connectivity prior, and (3) a multi-channel input representation that allows for reasoning over relationships between groups of objects. By using these priors over the physical properties of objects, our system improves reconstruction quality not just by standard visual metrics, but also performance of model-based control on a variety of robotics manipulation tasks in challenging, cluttered environments.
@@ -104,3 +103,13 @@ python train.py --gpu=0,1 --manual_seed=0 --expr_id=0 --resume=13 --suffix=2 --e
 OMP_NUM_THREADS=1 MUJOCO_GL=osmesa python herb_pushing_mppi.py --top_dir=&lt;cluttered reconstruction dataset folder=&lt;path to github code&gt;/
 ARM
 / --num_cpu=20 --gpu_num=0 --save_dir=&lt;path to results save directory&gt; --vis_while_running=0 --run_num=1 --use_gt=0 --ground_truth=0 --steps=200 --paths_per_cpu=25  --recon_net=&lt;path to saved network weights&gt; --make_video=1 --remove_old_runs=1
+
+## Citation
+@misc{agnew2020amodal,
+      title={Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity}, 
+      author={William Agnew and Christopher Xie and Aaron Walsman and Octavian Murad and Caelen Wang and Pedro Domingos and Siddhartha Srinivasa},
+      year={2020},
+      eprint={2009.13146},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
