@@ -90,6 +90,7 @@ https://www.shapenet.org/
 Coming soon!
 
 #### [download cluttered reconstruction dataset](https://drive.google.com/file/d/1iNmJvfSX7r_ImQRgH6O1wi6Y8zbUJEUX/view?usp=sharing)
+#### [download shapenet convex decompositions](https://drive.google.com/file/d/1AlA056SBR6xTmkrcnhE2ZJPKmhQv2z8P/view?usp=sharing)
 
 ## Replicating Results in Paper
 
