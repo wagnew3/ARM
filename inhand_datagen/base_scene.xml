@@ -1,0 +1,36 @@
+<mujoco model="scene">
+  <compiler coordinate="local" angle="radian" fusestatic="false" meshdir="assets/" texturedir="assets/"/>
+  <option timestep="0.002" iterations="500" apirate="50" solver="Newton" tolerance="1e-10" cone="elliptic"/>
+  <size njmax="1000" nconmax="1000"/>
+  <visual>
+    <global offwidth="800" offheight="800"/>
+    <quality shadowsize="2048"/>
+    <headlight ambient="0 0 0" diffuse="1.399999 1.399999 1.399999" specular="2 2 2"/>
+    <map force="0.1" zfar="30.0"/>
+    <rgba haze="0.1499999 0.25 0.3499998 1"/>
+  </visual>
+  <statistic extent="10.0" center="0.2 0 0.5"/>
+  <default>
+    <default class="/"></default>
+        <geom conaffinity="1" contype="1" margin="0.001" rgba="0.75 0.6 0.5 1" solimp="0.95 0.95 0.01" solref="0.002 1" user="0" density="500"></geom>
+    <default class="geom0">
+        <geom conaffinity="1" contype="1" margin="0.001" rgba="0.75 0.6 0.5 1" solimp="0.95 0.95 0.01" solref="0.002 1" user="0" density="500"></geom>
+    </default>
+  </default>
+  <asset>
+
+  </asset>
+  <worldbody>
+    <geom name="floor" class="/" type="plane" condim="3" size="0 0 0.25" rgba="0.5 0.18 0.12 1" pos="0 0 0"/>
+    <camera name="debug" mode="targetbody" pos="1 1 1" target="gen_body_table"/>
+  </worldbody>
+
+  <contact>
+    
+  </contact>
+
+  <actuator>
+
+  </actuator>
+
+</mujoco>
